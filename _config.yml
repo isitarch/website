@@ -3,6 +3,8 @@ name: 'Is it Arch?'
 description: 'Einige Gedanken zu Software Architektur.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
+domain: isitarch.icu
+url: https://isitarch.icu
 baseurl: ''
 avatar: 'assets/images/stroland_profile.png'
 email: 'isitarch@neurospicy.icu'
