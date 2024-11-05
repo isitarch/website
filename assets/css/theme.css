@@ -74,6 +74,9 @@ footer.footer {
 .navbar {
 	padding: 0.5rem 2rem;
 }
+.navbar .logo {
+  max-height: 42px;
+}
 .overlay {
 	position:absolute;
 	top:0;
