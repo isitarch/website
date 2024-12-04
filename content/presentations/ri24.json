@@ -1,0 +1,187 @@
+{
+  "title": "The Intersection of Architecture and Implementation",
+  "categories": ["Software Architecture", "Architecture Alignment", "Collaboration", "Governance", "Fitness Function"],
+  "image": "/assets/images/posts/Ri24-DDD-IAI_overview.png",
+  "visit": "https://www.youtube.com/watch?v=n6G5qtJHmgw",
+  "speaker": "Mark Richards",
+  "conference": "Domain-Driven Design Europe 2024, Amsterdam",
+  "publicationdate": "2024-10-07",
+  "timeline": [
+    {
+      "time": "00:16",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=16s",
+      "description_de": "Einführung in das Thema „Schnittstelle zwischen Architektur und Implementierung“.",
+      "description_en": "Introduction to the topic 'The Intersection of Architecture and Implementation'."
+    },
+    {
+      "time": "01:10",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=70s",
+      "description_de": "Szenario einer Architektur zur Unterstützung hoher Benutzerzahlen.",
+      "description_en": "Scenario of an architecture designed to support a high number of users."
+    },
+    {
+      "time": "03:20",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=200s",
+      "description_de": "Vorstellung der drei Arten der Architektur-Ausrichtung: operativ, strukturell und durch Einschränkungen.",
+      "description_en": "Introduction to the three types of architectural alignment: operational, structural, and constraint-based."
+    },
+    {
+      "time": "04:24",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=264s",
+      "description_de": "Erklärung der operativen Ausrichtung.",
+      "description_en": "Explanation of operational alignment."
+    },
+    {
+      "time": "06:30",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=390s",
+      "description_de": "Diskussion zur Entkopplung von Diensten durch Caching.",
+      "description_en": "Discussion on decoupling services using caching."
+    },
+    {
+      "time": "08:37",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=517s",
+      "description_de": "Beispiel für eine Fehlanpassung durch den Fokus auf Performance.",
+      "description_en": "Example of a mismatch caused by focusing on performance."
+    },
+    {
+      "time": "10:17",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=617s",
+      "description_de": "Strukturelle Ausrichtung mithilfe der logischen Architektur als Bausteine.",
+      "description_en": "Structural alignment using logical architecture as building blocks."
+    },
+    {
+      "time": "12:00",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=720s",
+      "description_de": "Bedeutung der Struktur in logischen Komponenten.",
+      "description_en": "Importance of structure in logical components."
+    },
+    {
+      "time": "15:40",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=940s",
+      "description_de": "Beispiel eines Ticketsystems für eine bessere strukturelle Ausrichtung.",
+      "description_en": "Example of a ticketing system for better structural alignment."
+    },
+    {
+      "time": "18:03",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=1083s",
+      "description_de": "Einführung in die Ausrichtung durch Einschränkungen.",
+      "description_en": "Introduction to constraint-based alignment."
+    },
+    {
+      "time": "20:10",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=1210s",
+      "description_de": "Vorteile der Schichtenarchitektur beim Management von Einschränkungen.",
+      "description_en": "Advantages of layered architecture in managing constraints."
+    },
+    {
+      "time": "23:20",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=1400s",
+      "description_de": "Produktionsprobleme durch fehlende Beachtung von Einschränkungen.",
+      "description_en": "Production issues caused by ignoring constraints."
+    },
+    {
+      "time": "25:50",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=1550s",
+      "description_de": "Erklärung von Fitnessfunktionen als Governance-Tools.",
+      "description_en": "Explanation of fitness functions as governance tools."
+    },
+    {
+      "time": "28:30",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=1710s",
+      "description_de": "Beispiel für Fitnessfunktionen für operative Metriken.",
+      "description_en": "Example of fitness functions for operational metrics."
+    },
+    {
+      "time": "30:30",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=1830s",
+      "description_de": "Strukturelle Fitnessfunktionen mit ArchUnit und ähnlichen Tools.",
+      "description_en": "Structural fitness functions using ArchUnit and similar tools."
+    },
+    {
+      "time": "33:00",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=1980s",
+      "description_de": "Bedeutung von Kommunikation in der Governance jenseits bloßer Regelsetzung.",
+      "description_en": "Importance of communication in governance beyond rule-setting."
+    },
+    {
+      "time": "35:00",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=2100s",
+      "description_de": "Kluft zwischen Architektur und Design und die Notwendigkeit einer bidirektionalen Beziehung.",
+      "description_en": "Gap between architecture and design and the need for a bidirectional relationship."
+    },
+    {
+      "time": "37:20",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=2240s",
+      "description_de": "Goldene Regeln der Zusammenarbeit.",
+      "description_en": "Golden rules of collaboration."
+    },
+    {
+      "time": "40:20",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=2420s",
+      "description_de": "Einführung in Architecture Decision Records (ADRs).",
+      "description_en": "Introduction to Architecture Decision Records (ADRs)."
+    },
+    {
+      "time": "44:40",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=2680s",
+      "description_de": "Demonstration von Entscheidungen mit Metriken zur Förderung der Zusammenarbeit.",
+      "description_en": "Demonstration of decisions with metrics to foster collaboration."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Most of these cases are because the architecture is not lined up and aligned with the implementation and vice versa.",
+      "author": "Mark Richards",
+      "time": "02:55",
+      "link": "https://youtu.be/n6G5qtJHmgw?t=175"
+    },
+    {
+      "text": "The logical architecture of a system shows how that system will work and how it’s coupled, the dependencies between these pieces of functionality.",
+      "author": "Mark Richards",
+      "time": "14:21",
+      "link": "https://youtu.be/n6G5qtJHmgw?t=861"
+    },
+    {
+      "text": "If developers don’t know why you made a decision, they’re less likely to agree with it.",
+      "author": "Mark Richards",
+      "time": "38:10",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=2290s"
+    },
+    {
+      "text": "Why is more important than how.",
+      "author": "Mark Richards",
+      "time": "38:32",
+      "link": "https://youtu.be/n6G5qtJHmgw?t=2312"
+    },
+    {
+      "text": "Developers should never take the components designed by architects as the last word; rather, it should be viewed as a first draft.",
+      "author": "Mark Richards",
+      "time": "47:30",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=2850s"
+    },
+    {
+      "text": "Architectural thinking empowers development teams to be more aware of architecture.",
+      "author": "Mark Richards",
+      "time": "50:03",
+      "link": "https://youtu.be/n6G5qtJHmgw?t=2999"
+    },
+    {
+      "text": "Architectural thinking empowers development teams to be more aware of architecture.",
+      "author": "Mark Richards",
+      "time": "50:03",
+      "link": "https://youtu.be/n6G5qtJHmgw?t=2999"
+    },
+    {
+      "text": "Demonstration defeats discussion.",
+      "author": "Mark Richards",
+      "time": "55:20",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=3320s"
+    },
+    {
+      "text": "The more significant a decision, the more I would try to demonstrate that value before approaching it.",
+      "author": "Mark Richards",
+      "time": "57:30",
+      "link": "https://youtube.com/watch?v=n6G5qtJHmgw&t=3450s"
+    }
+  ]
+}

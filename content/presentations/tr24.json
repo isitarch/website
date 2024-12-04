@@ -1,0 +1,163 @@
+{
+  "title": "Decision-Making for Maximizing Agreeability",
+  "categories": ["Decision Making", "Perspective", "Collaboration", "Best Practices"],
+  "image": "/assets/images/posts/Tr24-DDD-DMM_overview.png",
+  "visit": "https://www.youtube.com/watch?v=VG5a14wXsA4",
+  "speaker": "Chelsea Troy",
+  "conference": "Domain-Driven Design Europe 2024, Amsterdam",
+  "publicationdate": "2024-11-29",
+  "timeline": [
+    {
+      "time": "00:16",
+      "link": "https://youtube.com/watch?v=VG5a14wXsA4&t=16s",
+      "description_de": "Einleitung zur Entscheidungsfindung und Kontext der Präsentation.",
+      "description_en": "Introduction to decision-making and the context of the presentation."
+    },
+    {
+      "time": "01:10",
+      "link": "https://youtube.com/watch?v=VG5a14wXsA4&t=70s",
+      "description_de": "Perspektiven sind wichtig für ein gemeinsames Verständnis.",
+      "description_en": "Perspectives are important for a shared understanding."
+    },
+    {
+      "time": "03:20",
+      "link": "https://youtube.com/watch?v=VG5a14wXsA4&t=200s",
+      "description_de": "Angenommener Kontext als Problem bei der Entscheidungsfindung.",
+      "description_en": "Assumed context as a problem in decision-making."
+    },
+    {
+      "time": "08:37",
+      "link": "https://youtube.com/watch?v=VG5a14wXsA4&t=517s",
+      "description_de": "Erörterung, warum es wichtig ist zu verstehen, warum Best Practices wann angewendet werden.",
+      "description_en": "Discussion on why it is important to understand when and why best practices are applied."
+    },
+    {
+      "time": "13:11",
+      "link": "https://youtu.be/VG5a14wXsA4?t=791",
+      "description_de": "Flattened-Metrics als Problem bei der Entscheidungsfindung.",
+      "description_en": "Flattened metrics as a problem in decision-making."
+    },
+    {
+      "time": "14:28",
+      "link": "https://youtube.com/watch?v=VG5a14wXsA4&t=868s",
+      "description_de": "Diskussion über Optimieren und Satisficing-Metriken für die Entscheidungsfindung.",
+      "description_en": "Discussion on optimizing and satisficing metrics for decision-making."
+    },
+    {
+      "time": "16:30",
+      "link": "https://youtu.be/VG5a14wXsA4?t=990",
+      "description_de": "Flattened-Metrics und Domain-Driven Design.",
+      "description_en": "Flattened metrics and Domain-Driven Design."
+    },
+    {
+      "time": "20:30",
+      "link": "https://youtu.be/VG5a14wXsA4?t=1230",
+      "description_de": "Welche Perspektiven sind am wichtigsten für Entscheidungen?",
+      "description_en": "Which perspectives are most important for decision-making?"
+    },
+    {
+      "time": "26:20",
+      "link": "https://youtu.be/VG5a14wXsA4?t=1580",
+      "description_de": "Bedrohungen für Entscheidungen und deren Zustimmung.",
+      "description_en": "Threats to decisions and their acceptance."
+    },
+    {
+      "time": "28:30",
+      "link": "https://youtu.be/VG5a14wXsA4?t=1710",
+      "description_de": "Einführung in Wahlmethoden (z.B. Mehrheitswahl) zur Entscheidungsfindung im Team-Kontext.",
+      "description_en": "Introduction to voting methods (e.g., majority voting) for decision-making in a team context."
+    },
+    {
+      "time": "30:30",
+      "link": "https://youtube.com/watch?v=VG5a14wXsA4&t=1830s",
+      "description_de": "Risiko von Mehrheitsentscheidung - Tyrannei der Mehrheit.",
+      "description_en": "Risk of majority decisions – tyranny of the majority."
+    },
+    {
+      "time": "34:29",
+      "link": "https://youtu.be/VG5a14wXsA4?t=2069",
+      "description_de": "Konsensfindung, Zustimmungsabfrage, Bewertungsabfrage und weitere als alternative Methoden.",
+      "description_en": "Consensus building, approval polls, score polls, and other alternative methods."
+    },
+    {
+      "time": "38:10",
+      "link": "https://youtube.com/watch?v=VG5a14wXsA4&t=2290s",
+      "description_de": "Aussage, warum es entscheidend ist, den Kontext bei Entscheidungen zu berücksichtigen.",
+      "description_en": "Statement on why it is crucial to consider context in decisions."
+    },
+    {
+      "time": "43:00",
+      "link": "https://youtu.be/VG5a14wXsA4?t=2580",
+      "description_de": "Die Perspektiven/Personen finden, die für eine Entscheidung relevant sind.",
+      "description_en": "Identifying the perspectives/individuals relevant for a decision."
+    },
+    {
+      "time": "46:10",
+      "link": "https://youtu.be/VG5a14wXsA4?t=2770",
+      "description_de": "Vorteile neuer Perspektiven; neue Informationen und reichere Entscheidungen.",
+      "description_en": "Benefits of new perspectives; new information and richer decisions."
+    },
+    {
+      "time": "50:03",
+      "link": "https://youtube.com/watch?v=VG5a14wXsA4&t=2999s",
+      "description_de": "Zusammenfassung - Mehrwert von Perspektiven, insbesondere den versteckten.",
+      "description_en": "Summary – Value of perspectives, particularly hidden ones."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Context informs the perspectives with which all of it was built.",
+      "author": "Chelsea Troy",
+      "time": "3:20",
+      "link": "https://youtu.be/VG5a14wXsA4?t=200"
+    },
+    {
+      "text": "Computer science is not like other sciences; it is entirely human-made.",
+      "author": "Chelsea Troy",
+      "time": "2:42",
+      "link": "https://youtu.be/VG5a14wXsA4?t=162"
+    },
+    {
+      "text": "When we are responsible for teaching other people statements that start with generally [...] we are responsible for knowing what generally means.",
+      "author": "Chelsea Troy",
+      "time": "8:45",
+      "link": "https://youtu.be/VG5a14wXsA4?t=525"
+    },
+    {
+      "text": "It is very easy not to realize context is there.",
+      "author": "Chelsea Troy",
+      "time": "9:10",
+      "link": "https://youtu.be/VG5a14wXsA4?t=550"
+    },
+    {
+      "text": "If you can describe the tradeoffs of the technical choices you are making, you'll be several steps ahead of the best practice conversation.",
+      "author": "Chelsea Troy",
+      "time": "12:30",
+      "link": "https://youtu.be/VG5a14wXsA4?t=750"
+    },
+    {
+      "text": "The perspectives that matter the most in decision-making are precisely those perspectives that typically get excluded from participation in the thing we are making a decision about.",
+      "author": "Chelsea Troy",
+      "time": "41:30",
+      "link": "https://youtu.be/VG5a14wXsA4?t=2490"
+    },
+    {
+      "text": "We need to eliminate fear of exclusion by making all candidates acceptable.",
+      "author": "Chelsea Troy",
+      "time": "42:30",
+      "link": "https://youtu.be/VG5a14wXsA4?t=2550"
+    },
+    {
+      "text": "Any perspective we bring to the problem comes with a specific, sometimes hidden, context that we need to compare against other perspectives and contexts.",
+      "author": "Chelsea Troy",
+      "time": "50:40",
+      "link": "https://youtu.be/VG5a14wXsA4?t=3040"
+    },
+    {
+      "text": "Most of the time, not all concerns are equal. Acceptable and preferential are not the same.",
+      "author": "Chelsea Troy",
+      "time": "50:52",
+      "link": "https://youtu.be/VG5a14wXsA4?t=3052"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "title": "Domain Pattern – How the Domain Influences the Architecture",
+  "categories": ["Domain", "Pattern", "Transformation", "Software Architecture", "DDT"],
+  "image": "/assets/images/posts/Li24-DDD-DP_overview.png",
+  "visit": "https://www.youtube.com/watch?v=e-IYpjdU3io",
+  "speaker": "Carola Lilienthal",
+  "conference": "Domain-Driven Design Europe 2024, Amsterdam",
+  "publicationdate": "2024-11-18",
+  "timeline": [
+    {
+      "time": "0:50",
+      "link": "https://youtu.be/e-IYpjdU3io?t=50",
+      "description_de": "Einführung und Background",
+      "description_en": "Introduction and background"
+    },
+    {
+      "time": "4:15",
+      "link": "https://youtu.be/e-IYpjdU3io?t=255",
+      "description_de": "Motivation: Altsysteme, die teuer und schwer zu erweitern sind (Big Ball of Mud)",
+      "description_en": "Motivation: Legacy systems that are expensive and hard to extend (Big Ball of Mud)"
+    },
+    {
+      "time": "7:00",
+      "link": "https://youtu.be/e-IYpjdU3io?t=420",
+      "description_de": "Domain-Driven Transformation in vier Schritten",
+      "description_en": "Domain-driven transformation in four steps"
+    },
+    {
+      "time": "8:30",
+      "link": "https://youtu.be/e-IYpjdU3io?t=510",
+      "description_de": "Step 1: Domänen neu entdecken",
+      "description_en": "Step 1: Rediscovering domains"
+    },
+    {
+      "time": "10:01",
+      "link": "https://youtu.be/e-IYpjdU3io?t=601",
+      "description_de": "Step 2: Aufteilung der Domäne in Teile einer Zielarchitektur",
+      "description_en": "Step 2: Splitting the domain into parts of a target architecture"
+    },
+    {
+      "time": "11:30",
+      "link": "https://youtu.be/e-IYpjdU3io?t=690",
+      "description_de": "Step 3: Vergleich der Ist- und Zielarchitektur",
+      "description_en": "Step 3: Comparing the current and target architecture"
+    },
+    {
+      "time": "12:15",
+      "link": "https://youtu.be/e-IYpjdU3io?t=735",
+      "description_de": "Wie können die Architekturen verglichen bzw. bewertet werden?",
+      "description_en": "How can architectures be compared or evaluated?"
+    },
+    {
+      "time": "16:20",
+      "link": "https://youtu.be/e-IYpjdU3io?t=980",
+      "description_de": "Wo fange ich mit der Transformation bei einem Big Ball of Mud an?",
+      "description_en": "Where do I start transforming a Big Ball of Mud?"
+    },
+    {
+      "time": "20:20",
+      "link": "https://youtu.be/e-IYpjdU3io?t=1220",
+      "description_de": "Was sind die Schritte zur Transformation eines technisch geschichteten Systems",
+      "description_en": "What are the steps for transforming a technically layered system?"
+    },
+    {
+      "time": "28:40",
+      "link": "https://youtu.be/e-IYpjdU3io?t=1720",
+      "description_de": "Transformation eines technisch geschichteten Systems in Modulen",
+      "description_en": "Transforming a technically layered system into modules"
+    },
+    {
+      "time": "30:10",
+      "link": "https://youtu.be/e-IYpjdU3io?t=1810",
+      "description_de": "Domänenmuster: Pipeline Domäne, Blackboard Domäne und Dialogdomäne",
+      "description_en": "Domain patterns: Pipeline domain, Blackboard domain, and Dialog domain"
+    },
+    {
+      "time": "38:30",
+      "link": "https://youtu.be/e-IYpjdU3io?t=2310",
+      "description_de": "Beispiel: Planung von Untergrundarbeiten in Hamburg - Von der Blackboard-Domäne zur Diskussions-Domäne",
+      "description_en": "Example: Planning underground work in Hamburg – From the Blackboard domain to the Discussion domain"
+    },
+    {
+      "time": "40:00",
+      "link": "https://youtu.be/e-IYpjdU3io?t=2400",
+      "description_de": "Zusammenfassung und Übergang zu Fragen und Antworten",
+      "description_en": "Summary and transition to Q&A"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "A really good architecture [...] would have modules [...] with a nice layering and with very little coupling in between.",
+      "author": "Carola Lilienthal",
+      "time": "14:45",
+      "link": "https://youtu.be/e-IYpjdU3io?t=885"
+    },
+    {
+      "text": "Whenever you touch a part of your software, write a test for that.",
+      "author": "Carola Lilienthal",
+      "time": "18:20",
+      "link": "https://youtu.be/e-IYpjdU3io?t=1100"
+    },
+    {
+      "text": "Sometimes it's easy to cut a domain into pieces and sometimes it's really hard. [...] we tried to find some abstractions [...] and we called it domain patterns.",
+      "author": "Carola Lilienthal",
+      "time": "29:50",
+      "link": "https://youtu.be/e-IYpjdU3io?t=1790"
+    },
+    {
+      "text": "You will not have a huge domain that has only one domain pattern.",
+      "author": "Carola Lilienthal",
+      "time": "30:30",
+      "link": "https://youtu.be/e-IYpjdU3io?t=1830"
+    },
+    {
+      "text": "Domains [...] change, because there is all of a sudden software.",
+      "author": "Carola Lilienthal",
+      "time": "38:20",
+      "link": "https://youtu.be/e-IYpjdU3io?t=2300"
+    },
+    {
+      "text": "Their software system moved and the domain moved and they both interacted with each other to change the world.",
+      "author": "Carola Lilienthal",
+      "time": "42:00",
+      "link": "https://youtu.be/e-IYpjdU3io?t=2520"
+    }
+  ],
+  "references": [
+    {
+      "title": "Software Architecture Metrics",
+      "author": "Christian Ciceri, Dave Farley, Neal Ford, Andrew Harmel-Law, Michael Keeling, Carola Lilienthal, João Rosa, Alexander von Zitzewitz, Rene Weiss, Eoin Woods",
+      "isbn": "9781098112233",
+      "link": "https://isbnsearch.org/isbn/9781098112233",
+      "description_de": "Wie kann gemessen werden, ob Ist- und Ziel-Architektur zusammen passen",
+      "description_en": "How to measure the fit of current and target architecture"
+    },
+    {
+      "title": "Domain-Driven Transformation",
+      "author": "Carola Lilienthal, Henning Schwentner",
+      "isbn": "9780138311605",
+      "link": "https://isbnsearch.org/isbn/9780138311605",
+      "description_de": "Wie kann gemessen werden, ob Ist- und Ziel-Architektur zusammen passen",
+      "description_en": "How to measure the fit of current and target architecture"
+    },
+    {
+      "title": "Elevating Tactical DDD Patterns through Object Calisthenics",
+      "author": "Dorra Bartaguiz",
+      "conference": "DDD Europe 2024",
+      "description_de": "Vorgehensweise für die Anwendung von DDD auf taktischer Ebene zur ersten Strukturierung",
+      "description_en": "Application of domain-driven design on a tactical level to structure an application"
+    }
+  ]
+}

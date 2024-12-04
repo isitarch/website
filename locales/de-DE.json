@@ -1,0 +1,59 @@
+{
+  "template": {
+    "de": "🇩🇪 Deutsch",
+    "en": "🇺🇲 English"
+  },
+  "welcome": "Willkommen auf Is It Architecture",
+  "description": "Tauche ein in die Welt führender Tech-Konferenzen. Sieh dir Präsentationen an, entdecke spannende Zitate und diskutiere live mit der Community.",
+  "knowledge": {
+    "published_on": "Veröffentlicht am {date}"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "intro": "Sende deine Nachricht an {name}. Wir antworten schnellstmöglich!",
+    "name_label": "Name",
+    "email_label": "E-Mail-Adresse",
+    "message_label": "Nachricht",
+    "placeholder_name": "Dein Name*",
+    "placeholder_email": "Deine E-Mail-Adresse*",
+    "placeholder_message": "Deine Nachricht*",
+    "privacy_note": "Datenschutzhinweis: Deine Anfrage wird von {service} verarbeitet und an uns weitergeleitet.",
+    "submit_button": "Senden"
+  },
+  "buttons": {
+    "explore": "Präsentationen entdecken",
+    "learn_more": "Mehr erfahren",
+    "random": "Zufällige Präsentation",
+    "watch": "Anschauen"
+  },
+  "quotes": {
+    "in": "in \"{title}\""
+  },
+  "date": {
+    "published": "Veröffentlicht am {date}"
+  },
+  "menu": {
+    "home": "Startseite"
+  },
+  "Domain": "Domäne",
+  "Decision Making": "Entscheidungsfindund",
+  "Collaboration": "Zusammenarbeit",
+  "Perspective": "Perspektiven",
+  "Fitness Function": "Fitnessfunktion",
+  "Pattern": "Muster",
+  "Software Architecture": "Software Architektur",
+  "Architecture Alignment": "Architekturausrichtung",
+  "Transformation": "Transformation",
+  "DDT": "DDT",
+  "Context Mapping": "Context Mapping",
+  "Teams": "Teams",
+  "Bounded Context": "Bounded Context",
+  "Governance": "Governance",
+  "Best Practices": "Best Practices",
+  "errors": {
+    "not_found": "Seite nicht gefunden",
+    "description_not_found": "Die von dir aufgerufene Seite existiert leider nicht oder wurde verschoben.",
+    "404_illustration": "Fehlerseite Illustration",
+    "go_home": "Zur Startseite"
+  }
+}

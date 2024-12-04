@@ -1,0 +1,175 @@
+{
+  "title": "Introduction to Context Mapping",
+  "categories": ["Pattern", "Context Mapping", "Teams", "Collaboration", "Bounded Context"],
+  "image": "/assets/images/posts/Pl22-DDD-CM_overview.png",
+  "visit": "https://www.youtube.com/watch?v=k5i4sP9q2Lk",
+  "speaker": "Michael Plöd",
+  "conference": "Domain-Driven Design Europe 2022, Amsterdam",
+  "publicationdate": "2023-03-24",
+  "timeline": [
+    {
+      "time": "3:15",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=195",
+      "description_de": "Wie können Teams motiviert werden?",
+      "description_en": "How can teams be motivated?"
+    },
+    {
+      "time": "4:25",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=265",
+      "description_de": "Einführung von Bounded Context",
+      "description_en": "Introduction to Bounded Context"
+    },
+    {
+      "time": "8:15",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=495",
+      "description_de": "Teamstrukturierung, Kommunikation und Bounded Context",
+      "description_en": "Team structure, communication, and Bounded Context"
+    },
+    {
+      "time": "10:35",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=635",
+      "description_de": "Welche Art von Beziehungen zwischen Systemen und Teams adressieren Context Maps",
+      "description_en": "What types of relationships between systems and teams do Context Maps address?"
+    },
+    {
+      "time": "12:00",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=720",
+      "description_de": "Kopplungsarten von Servicenehmern zu Modellen von genutzten Services",
+      "description_en": "Types of coupling between service consumers and the models of services used"
+    },
+    {
+      "time": "13:20",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=800",
+      "description_de": "Kommunikation zwischen den Entwicklungsteams der Services",
+      "description_en": "Communication between development teams of services"
+    },
+    {
+      "time": "14:50",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=890",
+      "description_de": "Arten von Teambeziehungen",
+      "description_en": "Types of team relationships"
+    },
+    {
+      "time": "19:39",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=1179",
+      "description_de": "Muster: Open-host Service",
+      "description_en": "Pattern: Open-host Service"
+    },
+    {
+      "time": "23:05",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=1445",
+      "description_de": "Muster: Anticorruption Layer",
+      "description_en": "Pattern: Anticorruption Layer"
+    },
+    {
+      "time": "24:35",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=1555",
+      "description_de": "Muster: Conformist",
+      "description_en": "Pattern: Conformist"
+    },
+    {
+      "time": "30:45",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=1845",
+      "description_de": "Muster: Shared Kernel",
+      "description_en": "Pattern: Shared Kernel"
+    },
+    {
+      "time": "34:30",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=2070",
+      "description_de": "Muster: Partnership",
+      "description_en": "Pattern: Partnership"
+    },
+    {
+      "time": "37:20",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=2240",
+      "description_de": "Muster: Customer-Supplier",
+      "description_en": "Pattern: Customer-Supplier"
+    },
+    {
+      "time": "41:10",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=2470",
+      "description_de": "Anti-Pattern: Vetoing Customer",
+      "description_en": "Anti-Pattern: Vetoing Customer"
+    },
+    {
+      "time": "44:00",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=2640",
+      "description_de": "Muster: Separate Ways",
+      "description_en": "Pattern: Separate Ways"
+    },
+    {
+      "time": "45:30",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=2730",
+      "description_de": "Muster: Published Language",
+      "description_en": "Pattern: Published Language"
+    },
+    {
+      "time": "49:30",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=2970",
+      "description_de": "Muster: Big Ball of Mud",
+      "description_en": "Pattern: Big Ball of Mud"
+    },
+    {
+      "time": "50:30",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=3030",
+      "description_de": "Zusammenfassung und Beispiele",
+      "description_en": "Summary and examples"
+    },
+    {
+      "time": "54:00",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=3240",
+      "description_de": "Domänenkategorisierung als Kontext bei der Musterauswahl",
+      "description_en": "Domain categorization as context for pattern selection"
+    },
+    {
+      "time": "56:00",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=3360",
+      "description_de": "Ausblick",
+      "description_en": "Outlook"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I would also take a look at the floor plan of an organization. Which teams sit next to each others and which teams share a coffee kitchen with each other.",
+      "author": "Michael Plöd",
+      "time": "8:50",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=530"
+    },
+    {
+      "text": "Context Maps have been a hidden gem in the blue book [DDD by Eric Evans].",
+      "author": "Michael Plöd",
+      "time": "10:10",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=610"
+    },
+    {
+      "text": "I would usually avoid customer-supplier relationships against open-host services.",
+      "author": "Michael Plöd",
+      "time": "43:10",
+      "link": "https://youtu.be/k5i4sP9q2Lk?t=2590"
+    }
+  ],
+  "references": [
+    {
+      "title": "Drive",
+      "author": "Daniel H. Pink",
+      "isbn": "9781594484803",
+      "link": "https://isbnsearch.org/isbn/9781594484803",
+      "description_de": "Er stellt Autonomie (Autonomy), Optimierung der Fähigkeiten (Mastery) und Sinn (Purpose) als Motivationstreiber heraus.",
+      "description_en": "Explains autonomy, mastery, and purpose as drivers of motivation."
+    },
+    {
+      "title": "Team Topologies",
+      "author": "Matthew Skelton, Manuel Pais",
+      "isbn": "9781942788812",
+      "link": "https://isbnsearch.org/isbn/9781942788812",
+      "description_de": "Diskutiert u.a. die Wichtigkeit der Betrachtung von Teamstrukturierung.",
+      "description_en": "Discusses the importance of considering team structure."
+    },
+    {
+      "title": "Domain-Driven Desing Starter Modelling Process",
+      "link": "https://github.com/ddd-crew/ddd-starter-modelling-process",
+      "description_de": "GitHub-Repository für das Domain-Driven Design Starter Modelling Process.",
+      "description_en": "GitHub repository for the Domain-Driven Design Starter Modelling Process."
+    }
+  ]
+}
