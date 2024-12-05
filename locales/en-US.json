@@ -53,6 +53,7 @@
   "errors": {
     "not_found": "Page not found",
     "description_not_found": "The page you are looking for does not exist or has been moved.",
+    "path_not_found": "Path {path} not found.",
     "404_illustration": "Error page illustration",
     "go_home": "Go to homepage"
   }

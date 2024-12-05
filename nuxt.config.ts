@@ -7,6 +7,9 @@ export default defineNuxtConfig({
       }
     }
   },
+  routeRules: {
+      '/': { redirect: '/de' }
+  },
   devtools: { enabled: true },
   modules: [
     '@nuxt/content',
@@ -29,11 +32,10 @@ export default defineNuxtConfig({
     }
     ],
     langDir: '../locales/',
-  strategy: 'prefix',
+    strategy: 'prefix_and_default',
     detectBrowserLanguage: {
       fallbackLocale: 'en'
     }
   },
-  
   compatibilityDate: '2024-11-27'
 })

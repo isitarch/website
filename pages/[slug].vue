@@ -1,14 +1,17 @@
 <script setup lang="ts">
 const router = useRouter()
 const route = useRoute()
-const { t } = useI18n()
+const { t, locale } = useI18n()
 const page = ref()
 const $t = t
 
 watchEffect(async () => {
   const data = await queryCollection('pages').path(route.path).first()  
   if (!data) {
-    router.push({path: '/404'})
+    throw createError({
+        statusCode: 404,
+        statusMessage: t('errors.path_not_found', {path: route.path})
+    })
   }
   page.value = data
 })

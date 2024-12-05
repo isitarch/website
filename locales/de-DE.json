@@ -53,6 +53,7 @@
   "errors": {
     "not_found": "Seite nicht gefunden",
     "description_not_found": "Die von dir aufgerufene Seite existiert leider nicht oder wurde verschoben.",
+    "path_not_found": "Pfad {path} nicht gefunden.",
     "404_illustration": "Fehlerseite Illustration",
     "go_home": "Zur Startseite"
   }

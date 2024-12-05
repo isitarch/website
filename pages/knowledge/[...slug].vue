@@ -6,8 +6,10 @@ const route = useRoute()
 const { data: page, refresh } = await useAsyncData(async () => {
   const data = await queryCollection('knowledge').path(route.path).first()
   if (!data) {
-    router.push({path: '/404'})
-    throw createError({ statusCode: 404, statusMessage: 'Page Not Found' })
+    throw createError({
+        statusCode: 404,
+        statusMessage: t('errors.path_not_found', {path: route.path})
+    })
   }
   return data
 })

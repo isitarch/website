@@ -8,7 +8,10 @@ const presentation = ref()
 watchEffect(async () => {
   const data = await queryCollection('posts').path(route.path).first()
   if (!data) {
-    router.push({ path: '/404' })
+    throw createError({
+        statusCode: 404,
+        statusMessage: t('errors.path_not_found', {path: route.path})
+    })
   }
   page.value = data
 })

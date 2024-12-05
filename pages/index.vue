@@ -1,4 +1,6 @@
 <script setup lang="ts">
+clearError()
+
 const route = useRoute()
 const router = useRouter()
 const {locale, t} = useI18n()
