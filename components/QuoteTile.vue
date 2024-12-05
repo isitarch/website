@@ -20,7 +20,7 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div class="border bg-gray-800 border-gray-700 rounded hover:bg-gray-700 hover:scale-105 transition-transform duration-300 p-4">
+  <div class="border bg-gray-800 border-gray-700 rounded hover:bg-gray-700 hover:scale-105 transition-transform duration-300 p-4 flex flex-col">
     <blockquote class="italic text-gray-200">
       "{{ quote.text }}"
     </blockquote>
