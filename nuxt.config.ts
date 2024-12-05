@@ -32,7 +32,7 @@ export default defineNuxtConfig({
     }
     ],
     langDir: '../locales/',
-    strategy: 'prefix_and_default',
+    strategy: 'prefix',
     detectBrowserLanguage: {
       fallbackLocale: 'en'
     }
