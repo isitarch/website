@@ -69,6 +69,7 @@ const toggleCategory = category => {
         {{ category.label }} ({{ category.count }})
       </button>
     </div>
+    <!-- LARGE DISPLAYS -->
     <div class="hidden lg:grid grid-cols-4 content-start gap-8">
       <div class="col-span-2 flex flex-col gap-8">
         <PurposeTile />
@@ -84,6 +85,7 @@ const toggleCategory = category => {
           :content="tile.content" :type="tile.type" class="break-inside-avoid-column"></Tile>
       </div>
     </div>
+    <!-- MEDIUM DISPLAYS -->
     <div class="hidden sm:grid lg:hidden grid-cols-3 content-start gap-8">
       <div class="col-span-2 flex flex-col gap-8">
         <PurposeTile />
@@ -99,6 +101,7 @@ const toggleCategory = category => {
           :content="tile.content" :type="tile.type" class="break-inside-avoid-column text-sm"></Tile>
       </div>
     </div>
+    <!-- SMALL DISPLAYS -->
     <div class="grid sm:hidden grid-cols-2 content-start gap-8">
       <div class="col-span-2 flex flex-col gap-8">
         <PurposeTile />
