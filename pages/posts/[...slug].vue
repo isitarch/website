@@ -50,7 +50,7 @@ useSeoMeta({
       <div class="flex-1">
         <!-- img -->
         <div class="mb-4">
-          <NuxtImg :src="page?.image" class="rounded shadow-md" alt="Bild zur Präsentation" />
+          <img :src="presentation.image" class="rounded shadow-md" :alt="presentation.meta['image_' + locale.toLowerCase()]" v-if="presentation" />
         </div>
 
         <!-- desc -->
