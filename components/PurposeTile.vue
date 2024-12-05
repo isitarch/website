@@ -23,7 +23,7 @@ watchEffect(async () => {
         class="inline-block bg-white text-indigo-600 px-4 py-2 rounded font-bold hover:text-indigo-500">
         {{ t('buttons.random') }}
       </NuxtLink>
-      <NuxtLink to="/about" class="text-cyan-400 hover:text-cyan-200 px-4 py-2 text-sm font-bold">
+      <NuxtLink :to="{path: 'about'}" class="text-cyan-400 hover:text-cyan-200 px-4 py-2 text-sm font-bold">
         {{ t('buttons.learn_more') }}
       </NuxtLink>
     </div>
