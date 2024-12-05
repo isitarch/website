@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const { t } = useI18n()
+const route = useRoute()
 const props = defineProps({
   /**
    * Post to render.
@@ -18,7 +19,7 @@ const hide = ref(true)
             <img :src="post.image" v-if="post.image" :alt="post.title" />
             <div class="absolute inset-x-0 inset-y-0 flex flex-wrap items-center justify-center overflow-hidden" v-if="!hide">
                 <div class="flex flex-wrap justify-center">
-                    <NuxtLink :to="{ path: '/', query: { categories: category } }" v-for="category in post.categories" :key="category" class="opacity-80 hover:opacity-100 rounded m-1 px-2 py-1 text-sm bg-indigo-600 hover:bg-indigo-500 text-white">{{ t(category) }}</NuxtLink>
+                    <NuxtLink :to="{ path: route.path, query: { categories: category } }" v-for="category in post.categories" :key="category" class="opacity-80 hover:opacity-100 rounded m-1 px-2 py-1 text-sm bg-indigo-600 hover:bg-indigo-500 text-white">{{ t(category) }}</NuxtLink>
                 </div>
             </div>
             <div class="absolute top-2 right-3 px-1 rounded flex transition-transform duration-300 hover:scale-110 bg-white text-black" v-if="!hide">
