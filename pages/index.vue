@@ -39,7 +39,7 @@ const categoriesToCount = computed(() =>
 )
 const filteredPosts = computed(() => posts.value.filter(p => filterCategories.value.length === 0 || filterCategories.value.filter(c => p.categories.includes(c)).length !== 0))
 
-const quotes = computed(() => presentations.value.map(pr => pr.quotes.map(q=>{return {...q, presentation: pr.title}})).reduce((q1, q2) => q1.concat(q2), []))
+const quotes = computed(() => presentations.value.map(pr => pr.quotes?.map(q=>{return {...q, presentation: pr.title}})).reduce((q1, q2) => q1.concat(q2), []))
 const INSERT_QUOTE_EVERY_N_TILES = 7
 const tiles = computed(() => {
   let tiles = [...filteredPosts.value.map(p => {return {id: p.id, content: p, type: 'presentation'}})]
