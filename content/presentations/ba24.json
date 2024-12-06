@@ -1,0 +1,37 @@
+{
+    "title": "Elevating Tactical DDD Patterns through Object Calisthenics",
+    "categories": ["DDT", "Best practices", "Pattern"],
+    "image": "/assets/images/posts/Ba22-DDD-ETD_overview.png",
+    "image_de": "Dorra Bartaguiz zu Beginn ihres Vortrags neben dem Pult in grünem Zip-Hoodie. Im Hintergrund ist groß der Titel der Konferenz zu lesen.",
+    "image_en": "Dorra Bartaguiz at the start of her presentation standing beside the desk and wearing a green zip hoodie. The title of the conference is written in big letters in the background.",
+    "visit": "https://youtu.be/Ewd-3aPsqsw",
+    "speaker": "Dorra Bartaguiz",
+    "conference": "Domain-Driven Design Europe 2024, Amsterdam",
+    "publicationdate": "2024-11-04",
+    "timeline": [
+      {
+        "time": "",
+        "link": "https://youtu.be/Ewd-3aPsqsw?t=",
+        "description_de": "",
+        "description_en": ""
+      }
+    ],
+    "quotes": [
+      {
+        "text": "A really good architecture [...] would have modules [...] with a nice layering and with very little coupling in between.",
+        "author": "Dorra Bartaguiz",
+        "time": "14:45",
+        "link": "https://youtu.be/Ewd-3aPsqsw?t="
+      }
+    ],
+    "references": [
+      {
+        "title": "",
+        "author": "csv",
+        "isbn": "int",
+        "link": "https://isbnsearch.org/isbn/",
+        "description_de": "",
+        "description_en": "How does the talk connect with the reference"
+      }
+    ]
+  }
