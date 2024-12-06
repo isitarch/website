@@ -1,37 +1,103 @@
 {
-    "title": "Elevating Tactical DDD Patterns through Object Calisthenics",
-    "categories": ["DDT", "Best practices", "Pattern"],
-    "image": "/assets/images/posts/Ba22-DDD-ETD_overview.png",
-    "image_de": "Dorra Bartaguiz zu Beginn ihres Vortrags neben dem Pult in grünem Zip-Hoodie. Im Hintergrund ist groß der Titel der Konferenz zu lesen.",
-    "image_en": "Dorra Bartaguiz at the start of her presentation standing beside the desk and wearing a green zip hoodie. The title of the conference is written in big letters in the background.",
-    "visit": "https://youtu.be/Ewd-3aPsqsw",
-    "speaker": "Dorra Bartaguiz",
-    "conference": "Domain-Driven Design Europe 2024, Amsterdam",
-    "publicationdate": "2024-11-04",
-    "timeline": [
-      {
-        "time": "",
-        "link": "https://youtu.be/Ewd-3aPsqsw?t=",
-        "description_de": "",
-        "description_en": ""
-      }
-    ],
-    "quotes": [
-      {
-        "text": "A really good architecture [...] would have modules [...] with a nice layering and with very little coupling in between.",
-        "author": "Dorra Bartaguiz",
-        "time": "14:45",
-        "link": "https://youtu.be/Ewd-3aPsqsw?t="
-      }
-    ],
-    "references": [
-      {
-        "title": "",
-        "author": "csv",
-        "isbn": "int",
-        "link": "https://isbnsearch.org/isbn/",
-        "description_de": "",
-        "description_en": "How does the talk connect with the reference"
-      }
-    ]
-  }
+  "title": "Elevating Tactical DDD Patterns through Object Calisthenics",
+  "categories": ["DDT","Pattern","Best practices","DDD"],
+  "image": "/assets/images/posts/Ba22-DDD-ETD_overview.png",
+  "image_de": "Dorra Bartaguiz zu Beginn ihres Vortrags neben dem Pult in grünem Zip-Hoodie. Im Hintergrund ist groß der Titel der Konferenz zu lesen.",
+  "image_en": "Dorra Bartaguiz at the start of her presentation standing beside the desk and wearing a green zip hoodie. The title of the conference is written in big letters in the background.",
+  "visit": "https://youtu.be/Ewd-3aPsqsw",
+  "speaker": "Dorra Bartaguiz",
+  "conference": "Domain-Driven Design Europe 2024, Amsterdam",
+  "publicationdate": "2024-11-04",
+  "timeline": [
+    {
+      "time": "1:40",
+      "link": "https://youtu.be/Ewd-3aPsqsw?t=100",
+      "description_de": "Wie man taktische DDD-Muster sicherstellt",
+      "description_en": "How to ensure DDD tactical patterns"
+    },
+    {
+      "time": "3:00",
+      "link": "https://youtu.be/Ewd-3aPsqsw?t=180",
+      "description_de": "9 Regeln der Objekt-Kalisthenik",
+      "description_en": "9 rules of object calisthenics"
+    },
+    {
+      "time": "4:00",
+      "link": "https://youtu.be/Ewd-3aPsqsw?t=240",
+      "description_de": "Alle Primitiven und Strings umhüllen",
+      "description_en": "Wrap all primitives and strings"
+    },
+    {
+      "time": "6:15",
+      "link": "https://youtu.be/Ewd-3aPsqsw?t=375",
+      "description_de": "First-Class-Collection",
+      "description_en": "First class collection"
+    },
+    {
+      "time": "9:15",
+      "link": "https://youtu.be/Ewd-3aPsqsw?t=555",
+      "description_de": "Keine Abkürzungen verwenden",
+      "description_en": "Don't abbreviate"
+    },
+    {
+      "time": "11:00",
+      "link": "https://youtu.be/Ewd-3aPsqsw?t=660",
+      "description_de": "Keine Getter/Setter/Properties",
+      "description_en": "Not getters / setters / properties"
+    },
+    {
+      "time": "13:15",
+      "link": "https://youtu.be/Ewd-3aPsqsw?t=795",
+      "description_de": "Ein Punkt pro Zeile",
+      "description_en": "One dot per line"
+    },
+    {
+      "time": "14:25",
+      "link": "https://youtu.be/Ewd-3aPsqsw?t=865",
+      "description_de": "Kein else-Keyword / Anti-Muster mit Pfeilen",
+      "description_en": "Don't use else keyword / Arrow anti-pattern"
+    },
+    {
+      "time": "16:20",
+      "link": "https://youtu.be/Ewd-3aPsqsw?t=980",
+      "description_de": "Nur eine Ebene der Einrückung pro Methode",
+      "description_en": "Only one level of indentation per method"
+    },
+    {
+      "time": "17:45",
+      "link": "https://youtu.be/Ewd-3aPsqsw?t=1065",
+      "description_de": "Alle Entitäten klein halten",
+      "description_en": "Keep all entities small"
+    },
+    {
+      "time": "20:55",
+      "link": "https://youtu.be/Ewd-3aPsqsw?t=1255",
+      "description_de": "Keine Klassen mit mehr als zwei Instanzvariablen",
+      "description_en": "No classes with more than two instance variables"
+    },
+    {
+      "time": "24:00",
+      "link": "https://youtu.be/Ewd-3aPsqsw?t=1440",
+      "description_de": "Zusammenfassung, Fragen zur Anwendung der Regeln",
+      "description_en": "Summary, questions about applying the rules"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Nicht über Struktur nachdenken, sondern über Verhalten.",
+      "author": "Dorra Bartaguiz",
+      "time": "22:55",
+      "link": "https://youtu.be/Ewd-3aPsqsw?t=1375"
+    }
+  ],
+  "references": [
+    {
+      "title": "The ThoughtWorks Anthology: Essays on Software Technology and Innovation",
+      "author": "ThoughtWorks Inc.",
+      "isbn": "9781934356142",
+      "link": "https://isbnsearch.org/isbn/9781934356142",
+      "description_de": "Die 9 Regeln stammen aus diesem Buch und wurden dort von Jeff Bay als Übungsaufgaben festgehalten.",
+      "description_en": "Jeff Bay described the 9 rules as excersises in this book."
+    }
+  ]
+}

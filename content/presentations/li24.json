@@ -1,6 +1,12 @@
 {
   "title": "Domain Pattern – How the Domain Influences the Architecture",
-  "categories": ["Domain", "Pattern", "Transformation", "Software Architecture", "DDT"],
+  "categories": [
+    "Domain",
+    "Pattern",
+    "Transformation",
+    "Software Architecture",
+    "DDT"
+  ],
   "image": "/assets/images/posts/Li24-DDD-DP_overview.png",
   "image_de": "Carola Lilienthal bei ihrem Vortrag auf der Bühne neben dem Pult mit den Präsentationsfolien im Hintergrund. Auf der Folie ist der Titel Domain Pattern zu lesen.",
   "image_en": "Carola Lilienthal at the stage during her presentation standing beside the stand. In the background her presentation is displayed showing the title domain pattern.",
