@@ -84,12 +84,54 @@
   ],
   "quotes": [
     {
-      "text": "Nicht über Struktur nachdenken, sondern über Verhalten.",
-      "author": "Dorra Bartaguiz",
-      "time": "22:55",
-      "link": "https://youtu.be/Ewd-3aPsqsw?t=1375"
+        "text": "The use of primitives for complex concepts makes the code less understandable. Like this example, without dedicating structure, we can have errors.",
+        "author": "Dorra Bartaguiz",
+        "time": "04:21",
+        "link": "https://youtu.be/Ewd-3aPsqsw?t=261"
+    },
+    {
+        "text": "Ask your domain expert if there is any noun for collective or plural forms which are not directly tied to their singular counterparts.",
+        "author": "Dorra Bartaguiz",
+        "time": "07:14",
+        "link": "https://youtu.be/Ewd-3aPsqsw?t=434"
+    },
+    {
+        "text": "Don't abbreviate because the abbreviation can hide the intention and the original business concept.",
+        "author": "Dorra Bartaguiz",
+        "time": "09:23",
+        "link": "https://youtu.be/Ewd-3aPsqsw?t=563"
+    },
+    {
+        "text": "The drawbacks of separating data and behavior are having an anemic domain model with just structures and fields, with behavior in services.",
+        "author": "Dorra Bartaguiz",
+        "time": "11:14",
+        "link": "https://youtu.be/Ewd-3aPsqsw?t=674"
+    },
+    {
+        "text": "Don't talk to strangers; only talk to intermediate friends. This is the Law of Demeter.",
+        "author": "Ian Holland (cited by Dorra Bartaguiz)",
+        "time": "13:31",
+        "link": "https://youtu.be/Ewd-3aPsqsw?t=811"
+    },
+    {
+        "text": "The faster you can fail, the faster you can succeed.",
+        "author": "Software Development Principle (cited by Dorra Bartaguiz)",
+        "time": "15:41",
+        "link": "https://youtu.be/Ewd-3aPsqsw?t=941"
+    },
+    {
+        "text": "Keep all your entities small. This allows us to compose them and create big things, like Lego.",
+        "author": "Dorra Bartaguiz",
+        "time": "17:59",
+        "link": "https://youtu.be/Ewd-3aPsqsw?t=1079"
+    },
+    {
+        "text": "If you don't think about the behavior and only the structure and data, you might miss critical parts of the design.",
+        "author": "Dorra Bartaguiz",
+        "time": "22:59",
+        "link": "https://youtu.be/Ewd-3aPsqsw?t=1379"
     }
-  ],
+],
   "references": [
     {
       "title": "The ThoughtWorks Anthology: Essays on Software Technology and Innovation",
