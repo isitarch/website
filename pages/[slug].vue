@@ -3,8 +3,6 @@ const router = useRouter()
 const route = useRoute()
 const { t, locale } = useI18n()
 const page = ref()
-const $t = t
-
 watchEffect(async () => {
   const data = await queryCollection('pages').path(route.path).first()  
   if (!data) {
@@ -20,7 +18,6 @@ watchEffect(async () => {
     description: page.value?.description
   })
 })
-
 </script>
 
 <template>
