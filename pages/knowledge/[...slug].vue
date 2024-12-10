@@ -12,15 +12,15 @@ const { data: page, refresh } = await useAsyncData(async () => {
     })
   }
   return data
+
+  useSeoMeta({
+    title: data.title,
+    description: data.description
+  })
 })
 watchEffect(() => {//update data on language change
   locale.value
   refresh()
-})
-
-useSeoMeta({
-  title: page.value?.title,
-  description: page.value?.description
 })
 </script>
 

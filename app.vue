@@ -1,11 +1,17 @@
 <script setup lang="ts">
-useServerHead({
-  htmlAttrs: { lang: 'de' },
+const { locale, t } = useI18n()
+watchEffect(() => {
+  if (!!locale.value) {
+    useServerHead({
+      htmlAttrs: { lang: locale.value },
+    })
+  }
+  useSeoMeta({
+    titleTemplate: 'IsItArch | %s',
+    description: t('seo.description')
+  })
 })
-useSeoMeta({
-  titleTemplate: 'IsItArch | %s',
-  description: 'Wir schauen gemeinsam Konferenzvoträge zu Software Architektur, Domain-Driven Design und vielem mehr.'
-})
+
 </script>
 
 <template>
@@ -13,4 +19,7 @@ useSeoMeta({
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
+  <DefaultFooter />
 </template>
+
+

@@ -14,6 +14,11 @@ watchEffect(async () => {
     })
   }
   page.value = data
+
+  useSeoMeta({
+    title: page.value?.title,
+    description: page.value?.description
+  })
 })
 watchEffect(async () => {
   if (!page.value) return
@@ -27,12 +32,6 @@ watchEffect(async () => {
   }
   presentation.value = data
 })
-
-useSeoMeta({
-  title: page.value?.title,
-  description: page.value?.description,
-})
-
 </script>
 
 <template>

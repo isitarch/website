@@ -34,7 +34,8 @@ export default defineNuxtConfig({
     langDir: '../locales/',
     strategy: 'prefix',
     detectBrowserLanguage: {
-      fallbackLocale: 'en'
+      useCookie: false,
+      fallbackLocale: 'de'
     }
   },
   compatibilityDate: '2024-11-27'

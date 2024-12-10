@@ -59,6 +59,9 @@ const toggleCategory = category => {
     router.push({ name: route.name, query: { ...route.query, categories: [...filterCategories.value, category].join(',') } })
   }
 }
+useSeoMeta({
+  title: t('menu.home')
+})
 </script>
 
 <template>

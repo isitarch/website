@@ -33,7 +33,12 @@
     "published": "Published on {date}"
   },
   "menu": {
-    "home": "Home"
+    "home": "Home",
+    "knowledge": "Knowledge",
+    "about": "About IsItArch",
+    "contact": "Contact",
+    "impress": "Legal Notice",
+    "privacy": "Privacy"
   },
   "Domain": "Domain",
   "Decision Making": "Decision Making",
@@ -56,5 +61,9 @@
     "path_not_found": "Path {path} not found.",
     "404_illustration": "Error page illustration",
     "go_home": "Go to homepage"
-  }
+  },
+  "seo": {
+    "description": "Dive into the world of leading tech conferences. Watch presentations, explore exciting quotes, and join live discussions with the community."
+  },
+  "copyright": "© IsItArch 2024"
 }

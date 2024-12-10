@@ -14,12 +14,13 @@ watchEffect(async () => {
     })
   }
   page.value = data
+
+  useSeoMeta({
+    title: page.value?.title,
+    description: page.value?.description
+  })
 })
 
-useSeoMeta({
-  title: page.value?.title,
-  description: page.value?.description
-})
 </script>
 
 <template>

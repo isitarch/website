@@ -3,7 +3,6 @@ const router = useRouter()
 const route = useRoute()
 const { locale, availableLocales, t } = useI18n()
 const showMenu = ref(false)
-const staticPages = ref([])
 
 const pages = computed(() => [
   {
@@ -11,15 +10,19 @@ const pages = computed(() => [
     title: t('menu.home'),
     path: `/${locale.value}/`,
   },
-  ...staticPages.value,
+  {
+    id: 'about',
+    title: t('menu.about'),
+    path: `/${locale.value}/about`,
+  },
+  {
+    id: 'contact',
+    title: t('menu.contact'),
+    path: `/${locale.value}/contact`,
+  },
 ])
 
 watchEffect(async () => {
-  const data = await queryCollection('pages')
-    .where('path', 'LIKE', `/${locale.value}/%`)
-    .all()
-  staticPages.value = data || []
-
   router.push({
     path: route.path.replace(/^\/[a-z]{2}(-[A-Z]{2})?/, `/${locale.value}`),
     query: route.query || {},
