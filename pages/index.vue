@@ -2,7 +2,6 @@
 clearError()
 
 const route = useRoute()
-const router = useRouter()
 const {locale, t} = useI18n()
 const rawPosts = ref([])
 watchEffect(async () => {
@@ -54,9 +53,9 @@ const tiles = computed(() => {
 
 const toggleCategory = category => {
   if (filterCategories.value.includes(category)) {
-    router.push({ name: route.name, query: { ...route.query, categories: filterCategories.value.filter(c => c !== category).join(',') } })
+    navigateTo({ name: route.name, query: { ...route.query, categories: filterCategories.value.filter(c => c !== category).join(',') } })
   } else {
-    router.push({ name: route.name, query: { ...route.query, categories: [...filterCategories.value, category].join(',') } })
+    navigateTo({ name: route.name, query: { ...route.query, categories: [...filterCategories.value, category].join(',') } })
   }
 }
 useSeoMeta({
@@ -77,7 +76,7 @@ useSeoMeta({
       <div class="col-span-2 flex flex-col gap-8">
         <PurposeTile />
         <div class="columns-2 gap-8">
-          <div class="flex flex-col  gap-8" v-for="columnIndex in [2, 3]" :key="columnIndex">
+          <div class="flex flex-col gap-8" v-for="columnIndex in [2, 3]" :key="columnIndex">
             <Tile v-for="tile in tiles.filter((_, index) => (index - columnIndex) % 4 === 0)" :key="tile.id"
               :content="tile.content" :type="tile.type" class="break-inside-avoid-column"></Tile>
           </div>
@@ -93,7 +92,7 @@ useSeoMeta({
       <div class="col-span-2 flex flex-col gap-8">
         <PurposeTile />
         <div class="columns-2 gap-8">
-          <div class="flex flex-col  gap-8" v-for="columnIndex in [1, 2]" :key="columnIndex">
+          <div class="flex flex-col gap-8" v-for="columnIndex in [1, 2]" :key="columnIndex">
             <Tile v-for="tile in tiles.filter((_, index) => (index - columnIndex) % 3 === 0)" :key="tile.id"
               :content="tile.content" :type="tile.type" class="break-inside-avoid-column"></Tile>
           </div>

@@ -1,5 +1,4 @@
 <script setup lang="ts">
-const router = useRouter()
 const route = useRoute()
 const { locale, availableLocales, t } = useI18n()
 const showMenu = ref(false)
@@ -9,6 +8,11 @@ const pages = computed(() => [
     id: 'home',
     title: t('menu.home'),
     path: `/${locale.value}/`,
+  },
+  {
+    id: 'knowledge-base',
+    title: t('menu.knowledge-base'),
+    path: `/${locale.value}/knowledge-base`,
   },
   {
     id: 'about',
@@ -23,10 +27,12 @@ const pages = computed(() => [
 ])
 
 watchEffect(async () => {
-  router.push({
-    path: route.path.replace(/^\/[a-z]{2}(-[A-Z]{2})?/, `/${locale.value}`),
-    query: route.query || {},
-  })
+  if (!!locale.value && !route.path.startsWith(`/${locale.value}`)) {
+    navigateTo({
+      path: route.path.replace(/^\/[a-z]{2}(-[A-Z]{2})?/, `/${locale.value}`),
+      query: route.query || {},
+    })
+  }
 })
 </script>
 

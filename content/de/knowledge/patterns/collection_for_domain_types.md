@@ -1,7 +1,6 @@
 ---
 title: "Mustersammlung: Domänenarten"
 createdAt: 2024-10-11
-permalink: "/patterns/domain_types.html"
 image: "/assets/images/banner.png"
 categories: [ Muster, DDD, Domäne ]
 ---

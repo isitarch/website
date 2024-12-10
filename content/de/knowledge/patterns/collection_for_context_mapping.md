@@ -1,7 +1,6 @@
 ---
 title: "Mustersammlung: Bounded Context"
 createdAt: 2024-10-11
-permalink: "/patterns/context_mapping_collection.html"
 image: "/assets/images/banner.png"
 categories: [ Patterns, Context Mapping, Teams, Collaboration, Bounded Context ]
 ---

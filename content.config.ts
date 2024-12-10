@@ -1,6 +1,7 @@
 import { defineCollection, z } from '@nuxt/content'
 
 const knowledgeSchema: any = z.object({
+  image: z.string(),
   createdAt: z.date()
 })
 const postSchema: any = z.object({

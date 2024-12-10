@@ -1,7 +1,6 @@
 ---
 title: "Pattern Collection: Domain Types"
 createdAt: 2024-10-11
-permalink: "/patterns/domain_types.html"
 image: "/assets/images/banner.png"
 categories: [ Patterns, DDD, Domain ]
 ---

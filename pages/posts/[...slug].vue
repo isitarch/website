@@ -1,6 +1,5 @@
 <script setup lang="ts">
 const { t, d, locale } = useI18n()
-const router = useRouter()
 const route = useRoute()
 const page = ref()
 const presentation = ref()
@@ -19,18 +18,15 @@ watchEffect(async () => {
     title: page.value?.title,
     description: page.value?.description
   })
-})
-watchEffect(async () => {
-  if (!page.value) return
 
-  const data = await queryCollection('presentations').where('visit', '=', page.value.visit).first()
-  if (!data) {
+  const matchingPresentation = await queryCollection('presentations').where('visit', '=', page.value.visit).first()
+  if (!matchingPresentation) {
     throw createError({
         statusCode: 404,
         statusMessage: t('errors.path_not_found', {path: route.path})
     })
   }
-  presentation.value = data
+  presentation.value = matchingPresentation
 })
 </script>
 

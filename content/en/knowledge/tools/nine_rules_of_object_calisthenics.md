@@ -1,5 +1,5 @@
 ---
-title: "9 Regeln der Object Calisthenics"
+title: "9 rules of Object Calisthenics"
 createdAt: 2024-12-06
 image: "/assets/images/banner.png"
 ---

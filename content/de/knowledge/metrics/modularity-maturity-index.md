@@ -1,7 +1,6 @@
 ---
 title: "Der Modularity Maturity Index (MMI)"
 createdAt: 2024-10-11
-permalink: "/metrics/modularity-maturity-index.html"
 image: "/assets/images/banner.png"
 ---
 

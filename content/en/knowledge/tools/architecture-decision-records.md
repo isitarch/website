@@ -1,5 +1,5 @@
 ---
-title: "Was sind Architecture Decision Records (ADR)?"
+title: "Architecture Decision Records (ADR)"
 createdAt: 2024-10-11
 image: "/assets/images/banner.png"
 ---
