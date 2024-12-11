@@ -5,6 +5,7 @@ const page = ref()
 const presentation = ref()
 
 watchEffect(async () => {
+  if (!locale.value) return
   const data = await queryCollection('posts').path(route.path).first()
   if (!data) {
     throw createError({
