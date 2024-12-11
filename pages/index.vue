@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import ThreeColumnsWithHero from '~/components/ThreeColumnsWithHero.vue';
+
 clearError()
 
 const route = useRoute()
@@ -72,48 +74,19 @@ useSeoMeta({
       </button>
     </div>
     <!-- LARGE DISPLAYS -->
-    <div class="hidden lg:grid grid-cols-4 content-start gap-8">
-      <div class="col-span-2 flex flex-col gap-8">
-        <PurposeTile />
-        <div class="columns-2 gap-8">
-          <div class="flex flex-col gap-8" v-for="columnIndex in [2, 3]" :key="columnIndex">
-            <Tile v-for="tile in tiles.filter((_, index) => (index - columnIndex) % 4 === 0)" :key="tile.id"
-              :content="tile.content" :type="tile.type" class="break-inside-avoid-column"></Tile>
-          </div>
-        </div>
-      </div>
-      <div class="flex flex-col gap-8" v-for="columnIndex in [0, 1]" :key="columnIndex">
-        <Tile v-for="tile in tiles.filter((_, index) => (index - columnIndex) % 4 === 0)" :key="tile.id"
-          :content="tile.content" :type="tile.type" class="break-inside-avoid-column"></Tile>
-      </div>
-    </div>
+    <FourColumnsWithHero :tiles="tiles" class="hidden lg:block">
+      <template #hero><PurposeTile /></template>
+      <template #content="{tile}"><Tile :content="tile.content" :type="tile.type" class="break-inside-avoid-column"></Tile></template>
+      </FourColumnsWithHero>
     <!-- MEDIUM DISPLAYS -->
-    <div class="hidden sm:grid lg:hidden grid-cols-3 content-start gap-8">
-      <div class="col-span-2 flex flex-col gap-8">
-        <PurposeTile />
-        <div class="columns-2 gap-8">
-          <div class="flex flex-col gap-8" v-for="columnIndex in [1, 2]" :key="columnIndex">
-            <Tile v-for="tile in tiles.filter((_, index) => (index - columnIndex) % 3 === 0)" :key="tile.id"
-              :content="tile.content" :type="tile.type" class="break-inside-avoid-column"></Tile>
-          </div>
-        </div>
-      </div>
-      <div class="flex flex-col gap-8" v-for="columnIndex in [0]" :key="columnIndex">
-        <Tile v-for="tile in tiles.filter((_, index) => (index - columnIndex) % 3 === 0)" :key="tile.id"
-          :content="tile.content" :type="tile.type" class="break-inside-avoid-column text-sm"></Tile>
-      </div>
-    </div>
+    <ThreeColumnsWithHero :tiles="tiles" class="hidden sm:block lg:hidden">
+      <template #hero><PurposeTile /></template>
+      <template #content="{tile}"><Tile :content="tile.content" :type="tile.type" class="break-inside-avoid-column"></Tile></template>
+      </ThreeColumnsWithHero>
     <!-- SMALL DISPLAYS -->
-    <div class="grid sm:hidden grid-cols-2 content-start gap-8">
-      <div class="col-span-2 flex flex-col gap-8">
-        <PurposeTile />
-        <div class="columns-2 gap-8">
-          <div class="flex flex-col gap-8" v-for="columnIndex in [0, 1]" :key="columnIndex">
-            <Tile v-for="tile in tiles.filter((_, index) => (index - columnIndex) % 2 === 0)" :key="tile.id"
-              :content="tile.content" :type="tile.type" class="break-inside-avoid-column text-xs"></Tile>
-          </div>
-        </div>
-      </div>
-    </div>
+    <TwoColumnsWithHero :tiles="tiles" class="block sm:hidden">
+      <template #hero><PurposeTile /></template>
+      <template #content="{tile}"><Tile :content="tile.content" :type="tile.type" class="break-inside-avoid-column"></Tile></template>
+      </TwoColumnsWithHero>
   </div>
 </template>
