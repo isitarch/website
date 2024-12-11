@@ -32,7 +32,7 @@ watchEffect(async () => {
 </script>
 
 <template>
-  <div class="max-w-4xl mx-auto p-6">
+  <div v-if="page && presentation" class="max-w-4xl mx-auto p-6">
     <!-- header -->
     <div class="border-b border-gray-700 pb-4 mb-6">
       <h1 class="text-3xl font-bold text-cyan-400 mb-2">{{ page?.title }}</h1>
