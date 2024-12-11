@@ -26,14 +26,13 @@ const pages = computed(() => [
   },
 ])
 
-watchEffect(async () => {
-  if (!!locale.value && !route.path.startsWith(`/${locale.value}`)) {
-    navigateTo({
-      path: route.path.replace(/^\/[a-z]{2}(-[A-Z]{2})?/, `/${locale.value}`),
-      query: route.query || {},
-    })
-  }
-})
+
+const switchLocalePath = useSwitchLocalePath()
+
+const onLocaleChanged = (event: Event) => {
+  const target = event.target as HTMLInputElement
+  navigateTo({ path: switchLocalePath(target.value), query: route.query || {} })
+}
 </script>
 
 <template>
@@ -71,7 +70,7 @@ watchEffect(async () => {
               </div>
             </div>
             <div class="hidden sm:block sm:ml-4 flex justify-end">
-              <select v-model="locale" class="bg-gray-800 text-gray-200 rounded p-2">
+              <select v-model="locale" class="bg-gray-800 text-gray-200 rounded p-2" @change="onLocaleChanged">
                 <option v-for="lang in availableLocales" :key="lang" :value="lang">
                   {{ t('template.' + lang.toLowerCase()) }}
                 </option>
@@ -89,7 +88,7 @@ watchEffect(async () => {
             {{ page.title }}
           </NuxtLink>
             <div class="flex justify-center">
-              <select v-model="locale" class="text-center bg-gray-800 text-gray-200 rounded p-2">
+              <select v-model="locale" class="text-center bg-gray-800 text-gray-200 rounded p-2" @change="onLocaleChanged">
                 <option v-for="lang in availableLocales" :key="lang" :value="lang">
                   {{ t('template.' + lang.toLowerCase()) }}
                 </option>
