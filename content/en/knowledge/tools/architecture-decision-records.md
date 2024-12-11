@@ -3,45 +3,45 @@ title: "Architecture Decision Records (ADR)"
 createdAt: 2024-10-11
 image: "/assets/images/banner.png"
 ---
-Architecture Decision Records (ADRs) sind Dokumente, die wichtige architektonische Entscheidungen festhalten. Sie ermöglichen eine transparente Kommunikation zwischen Architekten und Entwicklern. Durch ADRs wird nicht nur festgehalten, *was* entschieden wurde, sondern auch *warum* eine Entscheidung getroffen wurde. Dies fördert ein besseres Verständnis und erhöht die Wahrscheinlichkeit, dass alle Beteiligten an einem Strang ziehen und die Architekturziele im Blick behalten.
+Architecture Decision Records (ADRs) are documents that record important architectural decisions. They enable transparent communication between architects and developers. With ADRs, not only *what* was decided is documented, but also *why* the decision was made. This fosters better understanding and increases the likelihood that everyone involved is on the same page and keeps the architectural goals in mind.
 
-Mark Richards gibt in seinem [Vortrag "The Intersection of Architecture and Implementation"](/posts/ri24-the_intersection_of_arch_and_impl) eine [kurze Einführung in das Thema](https://youtube.com/watch?v=n6G5qtJHmgw&t=2420s).
+Mark Richards provides a [brief introduction to the topic](https://youtube.com/watch?v=n6G5qtJHmgw&t=2420s) in his [talk "The Intersection of Architecture and Implementation"](/posts/ri24-the_intersection_of_arch_and_impl).
 
-## Der Zweck von ADRs
+## The Purpose of ADRs
 
-ADR sollten nicht nur als Dokumentation, sondern als ein **Werkzeug zur Zusammenarbeit** zwischen Architekten und Entwicklungsteams. Durch die Erklärung der Hintergründe einer Entscheidung wird sichergestellt, dass das "Warum" hinter der Entscheidung verstanden wird und die Architektur besser nachvollzogen werden kann.
+ADRs should not be viewed merely as documentation, but as a **collaboration tool** between architects and development teams. By explaining the background of a decision, it ensures that the "why" behind the decision is understood and that the architecture can be better comprehended.
 
 > **"Why is more important than how."**, [Mark Richards](https://youtube.com/watch?v=n6G5qtJHmgw&t=2430s)
 
-## Aufbau eines ADRs
+## Structure of an ADR
 
-Ein ADR ist typischerweise in folgende Abschnitte unterteilt:
+An ADR is typically divided into the following sections:
 
-- **Titel**: Ein prägnanter Titel der Entscheidung.
-- **Status**: Aktueller Status der Entscheidung (z. B. „vorgeschlagen“, „akzeptiert“ oder „veraltet“).
-- **Kontext**: Eine kurze Beschreibung des Kontexts und der Anforderungen, die zur Entscheidung geführt haben.
-- **Entscheidung**: Die getroffene Entscheidung, oft mit einer kurzen Begründung.
-- **Konsequenzen**: Die Konsequenzen und mögliche Auswirkungen dieser Entscheidung, einschließlich der Kompromisse und Alternativen.
+- **Title**: A concise title of the decision.
+- **Status**: The current status of the decision (e.g., “proposed,” “accepted,” or “deprecated”).
+- **Context**: A brief description of the context and the requirements that led to the decision.
+- **Decision**: The chosen decision, often accompanied by a brief justification.
+- **Consequences**: The consequences and possible impacts of this decision, including the trade-offs and alternatives.
 
-### Beispiel für ein ADR
+### Example of an ADR
 
-**ADR 001: Verwenden von Request-Reply-Messaging zwischen Diensten**
+**ADR 001: Using Request-Reply Messaging Between Services**
 
-- **Status**: Akzeptiert
-- **Kontext**: Das System muss eine hohe Skalierbarkeit und schnelle Antwortzeiten sicherstellen. Bisherige Versuche, RESTful-Schnittstellen zu verwenden, führten zu Performance-Einbußen bei hoher Last.
-- **Entscheidung**: Es wird Request-Reply-Messaging verwendet, da es in unserer Produktionsumgebung schneller und skalierbarer ist als REST.
-- **Konsequenzen**: Die Entscheidung bedeutet, dass die Implementierung komplexer wird und zusätzliche Messaging-Tools erfordert, bietet jedoch bessere Performance und Skalierbarkeit.
+- **Status**: Accepted
+- **Context**: The system must ensure high scalability and fast response times. Previous attempts to use RESTful interfaces led to performance degradation under high load.
+- **Decision**: Request-reply messaging will be used, as it is faster and more scalable in our production environment than REST.
+- **Consequences**: This decision means the implementation becomes more complex and requires additional messaging tools, but it offers better performance and scalability.
 
-## Vorteile von ADRs
+## Benefits of ADRs
 
-1. **Nachvollziehbarkeit**: Entscheidungen und deren Gründe sind dokumentiert, was den Lernprozess neuer Teammitglieder erleichtert.
-2. **Kollaboration**: Sie bieten eine Diskussionsgrundlage und fördern die Zusammenarbeit.
-3. **Kontinuität**: Selbst wenn Teammitglieder wechseln, bleiben ADRs als Wissensressource erhalten.
+1. **Traceability**: Decisions and their reasons are documented, making it easier for new team members to understand the reasoning.
+2. **Collaboration**: They provide a basis for discussion and encourage teamwork.
+3. **Continuity**: Even if team members change, ADRs remain as a knowledge resource.
 
 > **"If developers don't know why you made a decision, they're less likely to agree with it."**, [Mark Richards](https://youtube.com/watch?v=n6G5qtJHmgw&t=2290s)
 
-## Einsatz von ADRs in der Praxis
+## Using ADRs in Practice
 
-ADRs sollten in einem leicht zugänglichen Repository gespeichert werden, etwa in einem Git-Repo oder einer Wiki-Seite, damit alle Teammitglieder jederzeit darauf zugreifen können. [Richards empfiehlt in seinem Vortrag](/posts/ri24-the_intersection_of_arch_and_impl), ADRs zunächst temporär einzuführen, um ihre Wirksamkeit als Kommunikationsmittel zu testen.
+ADRs should be stored in an easily accessible repository, such as a Git repo or a wiki page, so that all team members can access them at any time. [Richards recommends in his talk](/posts/ri24-the_intersection_of_arch_and_impl) initially introducing ADRs on a trial basis to test their effectiveness as a communication tool.
 
 > **"Demonstration defeats discussion."**, [Mark Richards](https://youtube.com/watch?v=n6G5qtJHmgw&t=3320s)
