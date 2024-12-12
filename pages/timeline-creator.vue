@@ -1,0 +1,3 @@
+<template>
+  <ObsTimelineCreator></ObsTimelineCreator>
+</template>
