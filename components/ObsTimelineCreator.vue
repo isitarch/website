@@ -85,7 +85,7 @@ const clearTimeline = () => {
 
 <template>
   <div class="p-4 space-y-6">
-    <div class="grid grid-cols-2 gap-8">
+    <div class="grid grid-cols-2 gap-20">
       <!-- Vorschau -->
       <div class="border bg-gray-800 border-gray-700 rounded p-8">
         <h2 class="text-2xl text-cyan-400 leading-tight mb-1">{{ videoTitle }}</h2>
@@ -113,19 +113,19 @@ const clearTimeline = () => {
             placeholder="https://www.youtube.com/watch?v=..." />
         </div>
         <label for="timeline-input" class="block font-medium mb-2">Zeitleiste (Markdown)</label>
-        <textarea v-model="markdownInput" id="timeline-input" class="bg-gray-800 w-full h-40 p-2 border rounded-lg"
-          placeholder="1:20 Einführung ins Thema\n3:20 Absicherung mit Zapfenströsel"></textarea>
-      </div>
-    </div>
+        <textarea v-model="markdownInput" id="timeline-input" class="bg-gray-800 w-full h-40 p-2 mb-2 border rounded-lg"
+          placeholder="1:20 Einführung ins Thema&#10;3:20 Absicherung mit Zapfenströsel"></textarea>
 
-    <!-- Aktionen -->
-    <div class="flex gap-4">
-      <button @click="downloadAsJSON" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
-        JSON exportieren
-      </button>
-      <button @click="clearTimeline" class="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600">
-        Zeitleiste löschen
-      </button>
+        <!-- Aktionen -->
+        <div class="flex gap-4">
+          <button @click="downloadAsJSON" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
+            JSON exportieren
+          </button>
+          <button @click="clearTimeline" class="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600">
+            Zeitleiste löschen
+          </button>
+        </div>
+      </div>
     </div>
   </div>
 </template>

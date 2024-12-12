@@ -1,5 +1,7 @@
 <script setup lang="ts">
 const { locale, t } = useI18n()
+const route = useRoute()
+const clean = computed(() => !!route.query?.clean)
 watchEffect(() => {
   if (!!locale.value) {
     useServerHead({
@@ -15,11 +17,11 @@ watchEffect(() => {
 </script>
 
 <template>
-  <DefaultHeader />
-  <NuxtLayout>
+  <DefaultHeader v-if="!clean" />
+  <NuxtLayout :name="clean ? 'clean' : 'default'">
     <NuxtPage />
   </NuxtLayout>
-  <DefaultFooter />
+  <DefaultFooter v-if="!clean" />
 </template>
 
 
