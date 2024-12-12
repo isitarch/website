@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 const route = useRoute()
+const timerText = ref()
 const timerContainer = ref()
 let interval: NodeJS.Timeout|undefined = undefined
 const routeTime = computed(() => {
@@ -12,18 +13,20 @@ const time = computed(() => {
 })
 const startCountdown = () => {
   if (!!interval) {clearInterval(interval)}
-  timerContainer.value?.classList.add('heartbeat')
+  timerText.value?.classList.add('heartbeat')
   interval = setInterval(() => {
     if (countdown.value > 0) {
       countdown.value = countdown.value - 1
     } else {
       clearInterval(interval)
-      timerContainer.value?.classList.remove('heartbeat')
-      timerContainer.value?.classList.add('vibrate')
-      timerContainer.value?.classList.add('text-red-300')
+      timerText.value?.classList.remove('heartbeat')
+      timerText.value?.classList.add('vibrate')
+      timerContainer.value?.classList.add('bg-red-400')
+      timerText.value?.classList.add('text-gray-700')
       setTimeout(() => {
-        timerContainer.value?.classList.remove('vibrate')
-        timerContainer.value?.classList.remove('text-red-300')
+        timerText.value?.classList.remove('vibrate')
+      timerContainer.value?.classList.remove('bg-red-400')
+        timerText.value?.classList.remove('text-gray-700')
       }, 10000)
     }
   }, 1000)
@@ -43,12 +46,19 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="flex items-center justify-center text-4xl font-mono font-bold" style="height:200px; width:200px" ref="timerContainer">
-    {{ time }}
+  <div class="fullscreen rounded rounded-full flex items-center justify-center font-mono font-bold" ref="timerContainer">
+    <div ref="timerText">
+      {{ time }}
+    </div>
   </div>
 </template>
 
 <style lang="css" scoped>
+.fullscreen {
+  height:100vh;
+  width:100vw;
+  font-size: min(80vh, 30vw);
+}
 
 .vibrate{-webkit-animation:vibrate .3s linear infinite both;animation:vibrate .3s linear infinite both}
 .heartbeat{-webkit-animation:heartbeat 2s ease-in-out infinite both;animation:heartbeat 2s ease-in-out infinite both}
