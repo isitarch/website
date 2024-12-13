@@ -1,0 +1,163 @@
+{
+  "title": "Aggregates: An In-depth Examination",
+  "categories": [
+    "Domain",
+    "Pattern",
+    "Aggregates"
+  ],
+  "image": "/assets/images/posts/CV24-DDD-AI_overview.png",
+  "image_de": "Thomas Coopman und Gien Verschatse auf der Bühne - Thomas Coopman trägt ein Hemd und braune Farbtöne; Gien Verschatse kombiniert blaues Sakko mit roter Hose.",
+  "image_en": "Thomas Coopman und Gien Verschatse on stage - Thomas Coopman wears a shirt in brown colors; Gien Verschatse combines a blue jacket with red pants.",
+  "visit": "https://youtu.be/m7SMk8VA7Bg",
+  "speaker": "Thomas Coopman, Gien Verschatse",
+  "conference": "Domain-Driven Design Europe 2024, Amsterdam",
+  "publicationdate": "2024-12-09",
+  "timeline": [
+    {
+      "time": "1:20",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=80",
+      "description_de": "Motivation: Invarianten und Nebenläufigkeit",
+      "description_en": "Motivation: Invariants and concurrency"
+    },
+    {
+      "time": "2:50",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=170",
+      "description_de": "Was sind Aggregate?",
+      "description_en": "What are aggregates?"
+    },
+    {
+      "time": "3:45",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=225",
+      "description_de": "Fehlerhafte Aggregate und Regeln: Zu große Aggregate, unnötige Komplexität - 'Hero Aggregates'",
+      "description_en": "Faulty aggregates and rules: Oversized aggregates, unnecessary complexity - 'Hero Aggregates'"
+    },
+    {
+      "time": "5:30",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=330",
+      "description_de": "Einführung der Beispieldomäne",
+      "description_en": "Introduction to the example domain"
+    },
+    {
+      "time": "7:50",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=470",
+      "description_de": "Erstes Modellieren der Domäne – 'Event Storming Light'",
+      "description_en": "Initial modeling of the domain – 'Event Storming Light'"
+    },
+    {
+      "time": "9:00",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=540",
+      "description_de": "Sind überall Aggregate?",
+      "description_en": "Are Aggregates everywhere?"
+    },
+    {
+      "time": "10:00",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=600",
+      "description_de": "Erstes Refinement: Konfiguration von Zonen und Übergängen",
+      "description_en": "First refinement: Configuring zones and transitions"
+    },
+    {
+      "time": "11:50",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=710",
+      "description_de": "Example Mapping: Besseres Verständnis von Constraints",
+      "description_en": "Example Mapping: Better understanding of constraints"
+    },
+    {
+      "time": "17:00",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=1020",
+      "description_de": "Refinement: Betrachtung der Durchsetzung der Regeln",
+      "description_en": "Refinement: Evaluating rule enforcement"
+    },
+    {
+      "time": "18:40",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=1120",
+      "description_de": "Bounded Context: Übergänge in der Domäne (Konfiguration -> Durchsetzung)",
+      "description_en": "Bounded context: Transitions in the domain (configuration -> enforcement)"
+    },
+    {
+      "time": "20:30",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=1230",
+      "description_de": "Constraints innerhalb und außerhalb eines Bounded Contexts",
+      "description_en": "Constraints within and outside a bounded context"
+    },
+    {
+      "time": "22:20",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=1340",
+      "description_de": "Detaillierte Betrachtung der Regel-Durchsetzung",
+      "description_en": "Detailed evaluation of rule enforcement"
+    },
+    {
+      "time": "23:15",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=1395",
+      "description_de": "Example Mapping: Neue Constraints mit High-Security-Zone",
+      "description_en": "Example Mapping: New constraints with high-security zone"
+    },
+    {
+      "time": "29:50",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=1790",
+      "description_de": "Hinterfragen von Aggregate-Kandidaten hinsichtlich Konsistenz",
+      "description_en": "Challenging aggregate candidates regarding consistency"
+    },
+    {
+      "time": "32:40",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=1960",
+      "description_de": "Verfeinerung der Domäne anhand identifizierter Probleme",
+      "description_en": "Domain refinement based on identified issues"
+    },
+    {
+      "time": "39:00",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=2340",
+      "description_de": "Hinterfragen des aktuellen Aggregates: Welche Konsistenz ist notwendig?",
+      "description_en": "Challenging the current aggregate: What consistency is required?"
+    },
+    {
+      "time": "41:00",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=2460",
+      "description_de": "Aggregate verkleinern und testen, ob die Invarianten bestehen",
+      "description_en": "Reduce aggregate size and test if invariants hold"
+    },
+    {
+      "time": "43:50",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=2630",
+      "description_de": "Zwei Modelle mit unterschiedlicher Konsistenzqualität",
+      "description_en": "Two models with different levels of consistency"
+    },
+    {
+      "time": "45:30",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=2730",
+      "description_de": "Warum Constraints wichtig, aber auch hinderlich sein können",
+      "description_en": "Why constraints are important but can also be obstacles"
+    },
+    {
+      "time": "48:20",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=2900",
+      "description_de": "Fragen",
+      "description_en": "Questions"
+    },
+    {
+      "time": "48:40",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=2920",
+      "description_de": "Wie können Entscheidungen dokumentiert werden?",
+      "description_en": "How can decisions be documented?"
+    },
+    {
+      "time": "50:10",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=3010",
+      "description_de": "Detailfrage zum Modell",
+      "description_en": "Detailed question about the model"
+    },
+    {
+      "time": "53:10",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=3190",
+      "description_de": "Wird beim Design das Anfragevolumen von Aggregaten berücksichtigt?",
+      "description_en": "Is the request volume for aggregates considered during design?"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "A really good architecture [...] would have modules [...] with a nice layering and with very little coupling in between.",
+      "author": "Carola Lilienthal",
+      "time": "14:45",
+      "link": "https://youtu.be/e-IYpjdU3io?t=885"
+    }
+  ]
+}
