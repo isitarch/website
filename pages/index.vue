@@ -3,10 +3,11 @@ clearError()
 
 const route = useRoute()
 const { locale, t } = useI18n()
-const rawPosts = ref([])
+const rawPosts: Ref<Array<object>> = ref([])
 watchEffect(async () => {
   const data = await queryCollection('posts')
     .where('path', 'LIKE', `/${locale.value}/posts/%`)
+    .order('publishedAt', 'DESC')
     .all()
 
   rawPosts.value = data || []
@@ -14,6 +15,7 @@ watchEffect(async () => {
 
 const { data: presentations } = await useAsyncData('presentations', () => queryCollection('presentations').all())
 const posts = computed(() => rawPosts.value.map(p => {
+  if (!presentations.value) return {...p}
   const presentation = presentations.value.filter(pr => p.visit === pr.visit)[0] || {}
   return {
     ...p,
@@ -26,16 +28,16 @@ const filterCategories = computed(() => {
 })
 const filteredPosts = computed(() => posts.value.filter(p => filterCategories.value.length === 0 || filterCategories.value.filter(c => p.categories.includes(c)).length !== 0))
 
-const quotes = computed(() => presentations.value.map(pr => pr.quotes?.map(q => { return { ...q, presentation: pr.title } })).reduce((q1, q2) => q1.concat(q2), []))
+
 const INSERT_QUOTE_EVERY_N_TILES = 7
 const tiles = computed(() => {
-  let tiles = [...filteredPosts.value.map(p => { return { id: p.id, content: p, type: 'presentation' } })]
-  if (quotes.value.length > 0) {
-    for (let i = 0; i < filteredPosts.value.length; i += INSERT_QUOTE_EVERY_N_TILES) {
-      const quote = quotes.value[Math.floor(Math.random() * quotes.value.length)]
-      tiles.splice(3 + i * INSERT_QUOTE_EVERY_N_TILES, 0, { id: quote.link, content: quote, type: 'quote' })
-    }
+  let tiles = [...filteredPosts.value.map(p => { return {content: p, type: 'presentation'}})]
+  for (let i = 0; i < filteredPosts.value.length; i += INSERT_QUOTE_EVERY_N_TILES) {
+    tiles.splice(3 + i * INSERT_QUOTE_EVERY_N_TILES, 0, {type: 'randomQuote'})
   }
+  tiles.splice(2, 0, {type: 'upcomingStream'})
+  tiles.splice(7, 0, {type: 'contentTeaser'})
+  tiles.splice(10, 0, {type: 'suggestTopic'})
   return tiles
 })
 

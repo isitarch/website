@@ -3,8 +3,6 @@
     "de": "🇩🇪 Deutsch",
     "en": "🇺🇲 English"
   },
-  "welcome": "Willkommen auf Is It Architecture",
-  "description": "Tauche ein in die Welt führender Tech-Konferenzen. Sieh dir Präsentationen an, entdecke spannende Zitate und diskutiere live mit der Community.",
   "knowledge": {
     "published_on": "Veröffentlicht am {date}"
   },
@@ -34,6 +32,18 @@
   },
   "date": {
     "published": "Veröffentlicht am {date}"
+  },
+  "tile": {
+    "welcome_title": "Willkommen auf Is It Arch",
+    "welcome_description": "Tauche ein in die Welt führender Tech-Konferenzen.",
+    "content_teaser_title": "Von Top-Talks lernen",
+    "content_teaser_body": "Lerne mehr über Themen wie Softwarearchitektur, Domain-Driven Design, Clean Code oder Muster.",
+    "next_live_title": "Nächster Live-Stream: Freitag, 11 Uhr",
+    "next_live_body": "Mach mit und diskutiere live über spannende Themen. Jeden Freitag um 11 Uhr!",
+    "next_live_button": "Zum Stream",
+    "suggest_topic_title": "Mitmachen und Themen einreichen",
+    "suggest_topic_body": "Hast du spannende Themen oder Talks im Kopf? Reiche sie ein und gestalte den nächsten Stream mit!",
+    "suggest_topic_button": "Thema einreichen"
   },
   "menu": {
     "home": "Startseite",

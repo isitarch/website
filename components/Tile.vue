@@ -19,5 +19,8 @@ const hide = ref(true)
 
 <template>
     <PresentationTile :post="content" v-if="type==='presentation'" />
-    <QuoteTile :quote="content" v-else-if="type==='quote'" />
+    <RandomQuoteTile v-else-if="type==='randomQuote'" />
+    <ContentTeaserTile v-else-if="type==='contentTeaser'" />
+    <SuggestTopicTile v-else-if="type==='suggestTopic'" />
+    <UpcomingStreamTile v-else-if="type==='upcomingStream'" />
 </template>

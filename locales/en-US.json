@@ -3,8 +3,6 @@
     "de": "🇩🇪 Deutsch",
     "en": "🇺🇲 English"
   },
-  "welcome": "Welcome to Is It Architecture",
-  "description": "Dive into the world of leading tech conferences. Watch presentations, explore exciting quotes, and join live discussions with the community.",
   "knowledge": {
     "published_on": "Published on {date}"
   },
@@ -34,6 +32,18 @@
   },
   "date": {
     "published": "Published on {date}"
+  },
+  "tile": {
+    "welcome_title": "Welcome to Is It Architecture",
+    "welcome_description": "Dive into the world of leading tech conferences.",
+    "content_teaser_title": "Learn from top talks",
+    "content_teaser_body": "Watch presentations, explore exciting quotes, and join live discussions with the community.",
+    "next_live_title": "Next Live: Friday, 11 o'clock",
+    "next_live_body": "Participate and discuss interesting topics with us. Every friday at 11 am!",
+    "next_live_button": "To the stream",
+    "suggest_topic_title": "Participate and propose topics",
+    "suggest_topic_body": "Do you have interesting topics or talks in your head? Propose your ideas and shape the next stream!",
+    "suggest_topic_button": "Propose topic"
   },
   "menu": {
     "home": "Home",
