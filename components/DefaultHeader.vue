@@ -59,7 +59,7 @@ const onLocaleChanged = (event: Event) => {
           </div>
           <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div class="ml-10 flex shrink-0 items-center justify-center">
-              <NuxtImg src="/assets/images/logo.png" class="h-8 w-auto" alt="Logo green field"></NuxtImg>
+              <img src="/assets/images/logo.png" class="h-8 w-auto" alt="Logo green field"></img>
             </div>
             <div class="hidden sm:ml-auto sm:block">
               <div class="flex ">
@@ -72,7 +72,7 @@ const onLocaleChanged = (event: Event) => {
             <NuxtLink class="justify-end flex sm:ml-4" href="https://ko-fi.com/isitarch" :external="true"
               target="_blank" :title="t('menu.support_on_kofi')">
               <button class="h-5 w-auto my-auto">
-                <NuxtImg class="h-full w-auto" src="/assets/images/ko-fi.png" :alt="t('menu.supportOnKofi')"></NuxtImg>
+                <img class="h-full w-auto" src="/assets/images/ko-fi.png" :alt="t('menu.support_on_kofi')"></img>
               </button>
             </NuxtLink>
             <div class="hidden sm:block sm:ml-4 flex justify-end">
