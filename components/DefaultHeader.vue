@@ -64,11 +64,17 @@ const onLocaleChanged = (event: Event) => {
             <div class="hidden sm:ml-auto sm:block">
               <div class="flex ">
                 <NuxtLink v-for="page in pages" :key="page.id" :to="page.path"
-                  class="rounded-md px-3 py-2 text-sm text-stone-200 hover:text-white" activeClass="active">
+                  class="menu-item rounded-md px-3 py-2 text-sm text-stone-200 hover:text-white" activeClass="active">
                   {{ page.title }}
                 </NuxtLink>
               </div>
             </div>
+            <NuxtLink class="justify-end flex sm:ml-4" href="https://ko-fi.com/isitarch" :external="true"
+              target="_blank" :title="t('menu.support_on_kofi')">
+              <button class="h-5 w-auto my-auto">
+                <NuxtImg class="h-full w-auto" src="/assets/images/ko-fi.png" :alt="t('menu.supportOnKofi')"></NuxtImg>
+              </button>
+            </NuxtLink>
             <div class="hidden sm:block sm:ml-4 flex justify-end">
               <select v-model="locale" class="bg-gray-800 text-gray-200 rounded p-2" @change="onLocaleChanged">
                 <option v-for="lang in availableLocales" :key="lang" :value="lang">
@@ -87,13 +93,14 @@ const onLocaleChanged = (event: Event) => {
             activeClass="bg-gray-900 text-white">
             {{ page.title }}
           </NuxtLink>
-            <div class="flex justify-center">
-              <select v-model="locale" class="text-center bg-gray-800 text-gray-200 rounded p-2" @change="onLocaleChanged">
-                <option v-for="lang in availableLocales" :key="lang" :value="lang">
-                  {{ t('template.' + lang.toLowerCase()) }}
-                </option>
-              </select>
-            </div>
+          <div class="flex justify-center">
+            <select v-model="locale" class="text-center bg-gray-800 text-gray-200 rounded p-2"
+              @change="onLocaleChanged">
+              <option v-for="lang in availableLocales" :key="lang" :value="lang">
+                {{ t('template.' + lang.toLowerCase()) }}
+              </option>
+            </select>
+          </div>
         </div>
       </div>
     </nav>
@@ -101,14 +108,14 @@ const onLocaleChanged = (event: Event) => {
 </template>
 
 <style lang="css" scoped>
-nav a {
+nav a.menu-item {
   display: block;
   position: relative;
   padding-bottom: 0.2em;
 }
 
 /* Fade in */
-nav a::after {
+nav a.menu-item::after {
   content: '';
   position: absolute;
   bottom: -4px;
@@ -121,9 +128,9 @@ nav a::after {
   transform-origin: center;
 }
 
-nav a:hover::after,
-nav a:focus::after,
-nav .active::after {
+nav a.menu-item:hover::after,
+nav a.menu-item:focus::after,
+nav .menu-item.active::after {
   transform: translate3d(0, 0.1em, 0);
   transform: scale(1);
 }
