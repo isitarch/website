@@ -43,7 +43,8 @@
     "next_live_button": "Zum Stream",
     "suggest_topic_title": "Mitmachen und Themen einreichen",
     "suggest_topic_body": "Hast du spannende Themen oder Talks im Kopf? Reiche sie ein und gestalte den nächsten Stream mit!",
-    "suggest_topic_button": "Thema einreichen"
+    "suggest_topic_button": "Thema einreichen",
+    "new": "neu"
   },
   "menu": {
     "home": "Startseite",

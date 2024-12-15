@@ -43,7 +43,8 @@
     "next_live_button": "To the stream",
     "suggest_topic_title": "Participate and propose topics",
     "suggest_topic_body": "Do you have interesting topics or talks in your head? Propose your ideas and shape the next stream!",
-    "suggest_topic_button": "Propose topic"
+    "suggest_topic_button": "Propose topic",
+    "new": "new"
   },
   "menu": {
     "home": "Home",
