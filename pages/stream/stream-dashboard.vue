@@ -160,8 +160,8 @@ const handleTextareaCursor = (event: Event) => {
 </script>
 
 <template>
-  <div class="p-4 space-y-6">
-    <div class="grid grid-cols-2 gap-8">
+  <div class="p-4 space-y-6 h-screen">
+    <div class="grid grid-cols-2 gap-8 h-full">
       <!-- Peer connection information -->
       <div class="flex flex-col gap-8">
         <div class="bg-gray-800 border-gray-700 rounded p-8">
@@ -186,7 +186,7 @@ const handleTextareaCursor = (event: Event) => {
       </div>
 
       <!-- Timeline editing -->
-      <div class="border bg-gray-800 border-gray-700 rounded p-8">
+      <div class="border bg-gray-800 border-gray-700 rounded p-8 flex flex-col h-full">
         <div class="grid grid-cols-2 items-center gap-1 mb-4" style="grid-template-columns: min-content 1fr">
           <label for="video-title" class="block font-medium me-4">Title</label>
           <input v-model="videoTitle" id="video-title" type="text" class="bg-gray-800 w-full p-2 border rounded-lg"
@@ -201,13 +201,14 @@ const handleTextareaCursor = (event: Event) => {
 
         <!-- Timeline textarea -->
         <label for="timeline-input" class="block font-medium mb-2">Timeline (Markdown)</label>
-        <textarea v-model="markdownInput" id="timeline-input" class="bg-gray-800 w-full p-2 mb-2 border rounded-lg"
+        <textarea v-model="markdownInput" id="timeline-input"
+          class="bg-gray-800 w-full p-2 mb-2 border rounded-lg flex-grow h-full"
           placeholder="1:20 Introduction to the topic&#10;3:20 Safety with Zapfenströsel"
           @click="handleTextareaCursor"
           @keyup="handleTextareaCursor"></textarea>
 
         <!-- Timeline actions -->
-        <div class="flex gap-4">
+        <div class="flex gap-4 mt-4">
           <button @click="downloadAsJSON" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
             Export JSON
           </button>
