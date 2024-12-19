@@ -56,17 +56,20 @@ getTimeline((data: any) => {
 </script>
 
 <template>
-  <div class="w-screen h-screen flex items-stretch justify-stretch">
-  <div class="border bg-gray-800 border-gray-700 rounded p-8 m-4 w-full">
+  <div class="min-h-screen flex items-stretch justify-stretch">
+  <div class="border bg-gray-800 border-gray-700 rounded p-4 m-2 w-full">
     <h2 class="text-2xl text-cyan-400 leading-tight mb-1">{{ videoTitle }}</h2>
     <div class="mb-4 text-sm text-gray-400"><span v-if="speaker">von {{ speaker }}</span></div>
     <ul class="space-y-2">
-      <li v-for="(entry, index) in parsedTimeline" :key="index" class="flex items-center gap-4">
-        <span class="w-14 text-right" v-if="entry.time">{{ entry.time }}</span>
-        <span class="w-14 text-cyan-400 text-right" v-else>⎯</span>
-        <span class="font-bold">{{ entry.description }}</span>
-      </li>
+      <template v-for="(entry, index) in parsedTimeline.reverse()" :key="index">
+        <li  class="flex items-center gap-4">
+          <span class="min-w-14 text-right" v-if="entry.time">{{ entry.time }}</span>
+          <span class="min-w-14 text-cyan-400 text-right" v-else>⎯</span>
+          <span>{{ entry.description }}</span>
+        </li>
+        <li v-if="index!=parsedTimeline.length - 1" class="m-0 p-0 border-solid border border-gray-700"></li>
+      </template>
     </ul>
   </div>
-  </div>
+</div>
 </template>
