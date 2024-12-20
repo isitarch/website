@@ -154,10 +154,40 @@
   ],
   "quotes": [
     {
-      "text": "A really good architecture [...] would have modules [...] with a nice layering and with very little coupling in between.",
-      "author": "Carola Lilienthal",
-      "time": "14:45",
-      "link": "https://youtu.be/e-IYpjdU3io?t=885"
+      "text": "Your entities can be very complex, but they're still entities. You have to use the right name.",
+      "author": "Gien Verschatse",
+      "time": "5:05",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=305"
+    },
+    {
+      "text": "Aggregates are about consistency and concurrency. You need invariance for aggregates.",
+      "author": "Gien Verschatse",
+      "time": "4:45",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=285"
+    },
+    {
+      "text": "We don't want to jump on any complex entity and think it's an aggregate; that's one of the common mistakes.",
+      "author": "Thomas Coopman",
+      "time": "9:05",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=545"
+    },
+    {
+      "text": "Bounded Context is about an explicit boundary so we can choose what is in and what is out. Within the boundary we want a consistent model and language.",
+      "author": "Gien Verschatse",
+      "time": "19:30",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=1170"
+    },
+    {
+      "text": "A draft specification is a pattern within a bounded context regarding consistency. We don't have to anny the user with validation every time.",
+      "author": "Gien Verschatse",
+      "time": "21:05",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=1265"
+    },
+    {
+      "text": "We need aggregates in order to keep invariants. If you don't have invariants, you don't really need an aggregate.",
+      "author": "Thomas Coopman",
+      "time": "45:00",
+      "link": "https://youtu.be/m7SMk8VA7Bg?t=2700"
     }
   ]
 }
