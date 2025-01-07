@@ -1,0 +1,232 @@
+{
+  "title": "Partical (a.k.a. Actually Useful) Architecture",
+  "categories": [
+    "Software Architecture",
+    "Best Practices"
+  ],
+  "image": "/assets/images/posts/Ti23-GOT-PAU_overview.png",
+  "image_de": "Stefan Tilkov.",
+  "image_en": "Stefan Tilkov.",
+  "visit": "https://www.youtube.com/watch?v=BNTt2aLB1tg",
+  "speaker": "Stefan Tilkov",
+  "conference": "GOTO Conference, 2023, Amsterdam",
+  "publicationdate": "2023-12-18",
+  "timeline": [
+    {
+      "time": "0:15",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=15",
+      "description_de": "Über Stefan Tilkov",
+      "description_en": "About Stefan Tilkov"
+    },
+    {
+      "time": "1:24",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=84",
+      "description_de": "10 Empfehlungen für pragmatische Architekturarbeit",
+      "description_en": "10 recommendations for pragmatic architecture work"
+    },
+    {
+      "time": "1:30",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=90",
+      "description_de": "1. Wähle deine Perspektive(n) bewusst",
+      "description_en": "1. Choose your perspectives consciously"
+    },
+    {
+      "time": "3:30",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=210",
+      "description_de": "Modellierung geschäftlicher Aspekte: Domänenarchitektur",
+      "description_en": "Modeling business aspects: domain architecture"
+    },
+    {
+      "time": "4:50",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=290",
+      "description_de": "Makro-Architektur",
+      "description_en": "Macro architecture"
+    },
+    {
+      "time": "5:45",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=345",
+      "description_de": "Mikro-Architektur: Internes Aussehen der Bausteine, Technologien etc.",
+      "description_en": "Micro architecture: internal design of components, technologies, etc."
+    },
+    {
+      "time": "7:45",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=465",
+      "description_de": "2. Wähle gezielt eine bestimmte Teamstruktur",
+      "description_en": "2. Explicitly architect your team setup"
+    },
+    {
+      "time": "9:40",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=580",
+      "description_de": "Team-Architektur und Team Topologies",
+      "description_en": "Team architecture and team topologies"
+    },
+    {
+      "time": "11:30",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=690",
+      "description_de": "Positive Kritik an Team Topologies",
+      "description_en": "Positive critique of team topologies"
+    },
+    {
+      "time": "13:22",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=802",
+      "description_de": "3. Passe die organisatorische Struktur an Projektgröße, Kontext und Kultur an",
+      "description_en": "3. Match your organizational setup to project size, context, and culture"
+    },
+    {
+      "time": "17:39",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=1059",
+      "description_de": "4. Hab keine Angst, Dinge zentral zu entscheiden",
+      "description_en": "4. Don't be afraid to decide things centrally"
+    },
+    {
+      "time": "21:00",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=1260",
+      "description_de": "Auflistung von Vorschlägen, was zentral entschieden werden sollte",
+      "description_en": "Suggestions for what should be decided centrally"
+    },
+    {
+      "time": "21:05",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=1265",
+      "description_de": "5. Wähle deine Kämpfe weise",
+      "description_en": "5. Pick your battles wisely"
+    },
+    {
+      "time": "23:37",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=1417",
+      "description_de": "6. Erzwinge wenige notwendige Regeln, aber rigoros",
+      "description_en": "6. Enforce the least viable amount of rules, rigidly"
+    },
+    {
+      "time": "24:50",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=1490",
+      "description_de": "Vorsicht bei der Standardisierung",
+      "description_en": "Careful standardization"
+    },
+    {
+      "time": "28:40",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=1720",
+      "description_de": "Dinge, die ein Architekt (potenziell) durchsetzen sollte",
+      "description_en": "Things architects (potentially) should enforce"
+    },
+    {
+      "time": "29:52",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=1792",
+      "description_de": "7. Balance zwischen präskriptiver und deskriptiver Architektur",
+      "description_en": "7. Balance prescriptive vs. descriptive architecture"
+    },
+    {
+      "time": "35:15",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=2115",
+      "description_de": "8. Strebe keine Perfektion an – iteriere",
+      "description_en": "8. Don't aim for perfection - iterate"
+    },
+    {
+      "time": "36:50",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=2210",
+      "description_de": "9. Architektur sowohl für den Delivery Flow als auch für die Laufzeitqualität",
+      "description_en": "9. Architect for delivery flow as much as for runtime quality"
+    },
+    {
+      "time": "39:20",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=2360",
+      "description_de": "10. Sei langweilig und erreiche mehr mit weniger",
+      "description_en": "10. Be boring and do more with less"
+    },
+    {
+      "time": "44:51",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=2691",
+      "description_de": "Zusammenfassung",
+      "description_en": "Conclusion"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Be aware of your perspectives and act accordingly.",
+      "author": "Stefan Tilkov",
+      "time": "7:15",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=435"
+    },
+    {
+      "text": "Build, so it can change.",
+      "author": "Stefan Tilkov",
+      "time": "35:10",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=2110"
+    },
+    {
+      "text": "Focus innovation on the domain, not technology.",
+      "author": "Stefan Tilkov",
+      "time": "39:20",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=2360"
+    },
+    {
+      "text": "Autonomy requires rules.",
+      "author": "Stefan Tilkov",
+      "time": "24:18",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=1458"
+    },
+    {
+      "text": "Architecture is the important stuff—the stuff that's hard, that's easy to get wrong with incredibly negative side effects.",
+      "author": "Stefan Tilkov",
+      "time": "45:02",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=2702"
+    },
+    {
+      "text": "Don't aim for perfection—rather aim for evolvability.",
+      "author": "Stefan Tilkov",
+      "time": "45:47",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=2747"
+    },
+    {
+      "text": "If you try to do everything at once, you'll fail.",
+      "author": "Stefan Tilkov",
+      "time": "21:06",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=1266"
+    },
+    {
+      "text": "Enforce the least viable amount of rules, but enforce them rigidly.",
+      "author": "Stefan Tilkov",
+      "time": "23:40",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=1420"
+    },
+    {
+      "text": "The point of a perspective is to put one thing in your laser-sharp focus.",
+      "author": "Stefan Tilkov",
+      "time": "6:25",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=385"
+    },
+    {
+      "text": "Make decisions, and encourage others to make them too—even if it's hard.",
+      "author": "Stefan Tilkov",
+      "time": "34:10",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=2050"
+    },
+    {
+      "text": "Don't be the ChatGPT of architecture.",
+      "author": "Stefan Tilkov",
+      "time": "44:12",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=2652"
+    },
+    {
+      "text": "Every time you pick some solution from one context and apply it to a different one without considering whether it’s a match, you’re going to end up with a mess.",
+      "author": "Stefan Tilkov",
+      "time": "13:33",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=813"
+    },
+    {
+      "text": "Architecture is an ongoing thing—it's not something you hand off to developers and walk away.",
+      "author": "Stefan Tilkov",
+      "time": "23:33",
+      "link": "https://youtu.be/BNTt2aLB1tg?t=1413"
+    }
+  ],
+  "references": [
+    {
+      "title": "Team Topologies",
+      "author": "Matthew Skelton, Manuel Pais",
+      "isbn": "9781942788812",
+      "link": "https://isbnsearch.org/isbn/9781942788812",
+      "description_de": "Die Teamstruktur soll bewusst gewählt werden.",
+      "description_en": "The team topology shall be chosen consciously."
+    }
+  ]
+}
