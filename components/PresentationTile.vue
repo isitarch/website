@@ -12,11 +12,6 @@ const props = defineProps({
 const hide = ref(true)
 const newRange = 7 * 24 * 60 * 60 * 1000 // = 7 days
 const isNewPost = computed(() => Date.now() - Date.parse(props.post?.publishedAt) < newRange)
-console.log(Date.now());
-console.log(Date.parse(props.post?.publishedAt));
-console.log(Date.now() - Date.parse(props.post?.publishedAt));
-console.log(Date.now() - Date.parse(props.post?.publishedAt) < newRange);
-
 </script>
 
 <template>
@@ -39,9 +34,8 @@ console.log(Date.now() - Date.parse(props.post?.publishedAt) < newRange);
         <NuxtLink :to="post.path" class="font-bold text-xs hover:text-gray-600">➜ {{ t('buttons.learn_more') }}
         </NuxtLink>
       </div>
-      <div v-if="isNewPost"
-        class="absolute top-0 left-0 px-2 bg-red-700 text-white -rotate-12"
-        >{{ t('tile.new') }}</div>
+      <div v-if="isNewPost" class="absolute top-0 left-0 px-2 bg-red-700 text-white -rotate-12">{{ t('tile.new') }}
+      </div>
     </div>
     <div class="p-2 leading-tight">
       <NuxtLink :to="post.path" class="text-cyan-400 hover:text-cyan-200">{{ post.title }}</NuxtLink>
