@@ -1,0 +1,146 @@
+{
+  "title": "DDD & LLMs",
+  "categories": [
+    "Large Language Models",
+    "DDD"
+  ],
+  "image": "/assets/images/posts/Ev24-DDD-DL_overview.png",
+  "image_de": "Eric Evans während seines Vortrags. Im Hintergrund der Titel des Vortrags auf der projizierten Folie.",
+  "image_en": "Eric Evans during his talk.",
+  "visit": "https://youtu.be/lrSB9gEUJEQ",
+  "speaker": "Eric Evans",
+  "conference": "Domain-Driven Design Europe, 2024, Amsterdam",
+  "publicationdate": "2024-12-23",
+  "timeline": [
+    {
+      "time": "0:17",
+      "link": "https://youtu.be/lrSB9gEUJEQ?t=17",
+      "description_de": "Einleitung: Die Entwicklung und Bedeutung von LLMs im Vergleich zu früheren Technologiewellen.",
+      "description_en": "Introduction: The development and significance of LLMs compared to previous tech waves."
+    },
+    {
+      "time": "2:00",
+      "link": "https://youtu.be/lrSB9gEUJEQ?t=120",
+      "description_de": "Vergleich der Einführung von LLMs mit der Entwicklung des Internets Ende der 90er.",
+      "description_en": "Comparison of LLM adoption to the internet's rise in the late 90s."
+    },
+    {
+      "time": "4:00",
+      "link": "https://youtu.be/lrSB9gEUJEQ?t=240",
+      "description_de": "Mögliche Zukünfte: Szenarien von Weltuntergang bis Software-Revolution.",
+      "description_en": "Possible futures: Scenarios ranging from the end of the world to a software revolution."
+    },
+    {
+      "time": "13:50",
+      "link": "https://youtu.be/lrSB9gEUJEQ?t=830",
+      "description_de": "Komplexität: LLMs und ihre Fähigkeit, komplexe Domänen zu bewältigen.",
+      "description_en": "Complexity: LLMs and their ability to handle complex domains."
+    },
+    {
+      "time": "15:55",
+      "link": "https://youtu.be/lrSB9gEUJEQ?t=955",
+      "description_de": "Einführung in Prompting und erste Design-Prinzipien für LLM-Interaktionen.",
+      "description_en": "Introduction to prompting and initial design principles for LLM interactions."
+    },
+    {
+      "time": "27:00",
+      "link": "https://youtu.be/lrSB9gEUJEQ?t=1620",
+      "description_de": "LLMs als Komponenten: Integration in Software und neue Architekturmuster.",
+      "description_en": "LLMs as components: Integration into software and new architectural patterns."
+    },
+    {
+      "time": "28:00",
+      "link": "https://youtu.be/lrSB9gEUJEQ?t=1680",
+      "description_de": "Das Polizeiverhör-Spiel: Demonstration von Multi-Prompt-Ansätzen.",
+      "description_en": "The police interrogation game: Demonstration of multi-prompt approaches."
+    },
+    {
+      "time": "55:30",
+      "link": "https://youtu.be/lrSB9gEUJEQ?t=3330",
+      "description_de": "Tiefer Einblick in Fine-Tuning und Training von LLMs.",
+      "description_en": "Deep dive into fine-tuning and training of LLMs."
+    },
+    {
+      "time": "58:00",
+      "link": "https://youtu.be/lrSB9gEUJEQ?t=3480",
+      "description_de": "LLMs und DDD: Wie sich Prinzipien von Domain-Driven Design auf Prompting anwenden lassen.",
+      "description_en": "LLMs and DDD: Applying principles of domain-driven design to prompting."
+    },
+    {
+      "time": "63:50",
+      "link": "https://youtu.be/lrSB9gEUJEQ?t=3830",
+      "description_de": "Die Bedeutung kontinuierlichen Lernens im Kontext von LLMs.",
+      "description_en": "The importance of continuous learning in the context of LLMs."
+    },
+    {
+      "time": "65:30",
+      "link": "https://youtu.be/lrSB9gEUJEQ?t=3930",
+      "description_de": "Ermutigung zur Teilnahme: Spaß und Experimentierfreude im Umgang mit LLMs.",
+      "description_en": "Encouragement to participate: Fun and experimentation with LLMs."
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The arrival of LLMs feels like the late 90s and the web arriving.",
+      "author": "Eric Evans",
+      "time": "2:00",
+      "link": "https://youtu.be/lrSB9gEUJEQ?t=120"
+    },
+    {
+      "text": "An LLM crunches a complex domain into a form that allows you to operate on that complexity in an interesting way.",
+      "author": "Eric Evans",
+      "time": "13:50",
+      "link": "https://youtu.be/lrSB9gEUJEQ?t=830"
+    },
+    {
+      "text": "Prompt engineering is going to move on from free-form natural language input to something much more structured.",
+      "author": "Eric Evans",
+      "time": "58:30",
+      "link": "https://youtu.be/lrSB9gEUJEQ?t=3510"
+    },
+    {
+      "text": "Learn, learn, learn, and don’t be too picky about your learning. With LLMs, even seemingly irrelevant knowledge might become valuable later.",
+      "author": "Eric Evans",
+      "time": "63:50",
+      "link": "https://youtu.be/lrSB9gEUJEQ?t=3830"
+    },
+    {
+      "text": "This is one of those moments, with LLMs transforming the software landscape, when it pays to loosen up and have some fun.",
+      "author": "Eric Evans",
+      "time": "65:30",
+      "link": "https://youtu.be/lrSB9gEUJEQ?t=3930"
+    }
+  ],
+  "references": [
+    {
+      "name": "Hugging Face",
+      "link": "https://huggingface.co",
+      "description_de": "Evans verwies auf Hugging Face als eine zentrale Plattform für LLM-Modelle, Datensätze und Tools. Besonders nützlich für das Training, Fine-Tuning und die Entwicklung von LLM-basierten Anwendungen.",
+      "description_en": "Evans highlighted Hugging Face as a key platform for LLM models, datasets, and tools, especially useful for training, fine-tuning, and developing LLM-based applications."
+    },
+    {
+      "name": "Unity Game Engine",
+      "link": "https://unity.com/",
+      "description_de": "In seinem Beispiel des Polizeiverhör-Spiels verwendete Evans Unity als Spiel-Engine, um die Interaktion mit LLMs zu demonstrieren.",
+      "description_en": "Evans used Unity as the game engine for his police interrogation game to demonstrate interaction with LLMs."
+    },
+    {
+      "name": "Transformers Library",
+      "link": "https://huggingface.co/docs/transformers/",
+      "description_de": "Evans empfahl die Transformers-Bibliothek von Hugging Face für Fine-Tuning und Parameter-effizientes Training von LLMs.",
+      "description_en": "Evans recommended Hugging Face's Transformers library for fine-tuning and parameter-efficient training of LLMs."
+    },
+    {
+      "name": "Low-Rank Adaptation (LoRA)",
+      "link": "https://arxiv.org/abs/2106.09685",
+      "description_de": "Evans erwähnte LoRA als Technik für effizientes Fine-Tuning, um spezialisierte Modelle zu erstellen, ohne die gesamten Parameter eines LLM zu ändern.",
+      "description_en": "Evans mentioned LoRA as a technique for efficient fine-tuning to create specialized models without modifying the full parameters of an LLM."
+    },
+    {
+      "name": "Neural Networks from Scratch",
+      "link": "https://nnfs.io",
+      "description_de": "Evans empfahl dieses Buch für ein tieferes Verständnis der Funktionsweise von neuronalen Netzwerken, obwohl es fortgeschrittene Mathematik voraussetzt.",
+      "description_en": "Evans recommended this book for a deeper understanding of neural network functionality, though it requires advanced mathematical knowledge."
+    }
+  ]
+}
