@@ -1,9 +1,10 @@
 ---
-title: "Architecture Decision Records (ADR)"
+title: 'Architecture Decision Records (ADR)'
 createdAt: 2024-10-11
-image: "/assets/images/banner.png"
+image: '/assets/images/banner.png'
 ---
-Architecture Decision Records (ADRs) are documents that record important architectural decisions. They enable transparent communication between architects and developers. With ADRs, not only *what* was decided is documented, but also *why* the decision was made. This fosters better understanding and increases the likelihood that everyone involved is on the same page and keeps the architectural goals in mind.
+
+Architecture Decision Records (ADRs) are documents that record important architectural decisions. They enable transparent communication between architects and developers. With ADRs, not only _what_ was decided is documented, but also _why_ the decision was made. This fosters better understanding and increases the likelihood that everyone involved is on the same page and keeps the architectural goals in mind.
 
 Mark Richards provides a [brief introduction to the topic](https://youtube.com/watch?v=n6G5qtJHmgw&t=2420s) in his [talk "The Intersection of Architecture and Implementation"](/posts/ri24-the_intersection_of_arch_and_impl).
 
@@ -45,3 +46,7 @@ An ADR is typically divided into the following sections:
 ADRs should be stored in an easily accessible repository, such as a Git repo or a wiki page, so that all team members can access them at any time. [Richards recommends in his talk](/posts/ri24-the_intersection_of_arch_and_impl) initially introducing ADRs on a trial basis to test their effectiveness as a communication tool.
 
 > **"Demonstration defeats discussion."**, [Mark Richards](https://youtube.com/watch?v=n6G5qtJHmgw&t=3320s)
+
+## References
+
+- [Link collection on ADR at Github](https://github.com/joelparkerhenderson/architecture-decision-record)

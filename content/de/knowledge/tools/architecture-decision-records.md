@@ -1,9 +1,10 @@
 ---
-title: "Architecture Decision Records (ADR)"
+title: 'Architecture Decision Records (ADR)'
 createdAt: 2024-10-11
-image: "/assets/images/banner.png"
+image: '/assets/images/banner.png'
 ---
-Architecture Decision Records (ADRs) sind Dokumente, die wichtige architektonische Entscheidungen festhalten. Sie ermöglichen eine transparente Kommunikation zwischen Architekten und Entwicklern. Durch ADRs wird nicht nur festgehalten, *was* entschieden wurde, sondern auch *warum* eine Entscheidung getroffen wurde. Dies fördert ein besseres Verständnis und erhöht die Wahrscheinlichkeit, dass alle Beteiligten an einem Strang ziehen und die Architekturziele im Blick behalten.
+
+Architecture Decision Records (ADRs) sind Dokumente, die wichtige architektonische Entscheidungen festhalten. Sie ermöglichen eine transparente Kommunikation zwischen Architekten und Entwicklern. Durch ADRs wird nicht nur festgehalten, _was_ entschieden wurde, sondern auch _warum_ eine Entscheidung getroffen wurde. Dies fördert ein besseres Verständnis und erhöht die Wahrscheinlichkeit, dass alle Beteiligten an einem Strang ziehen und die Architekturziele im Blick behalten.
 
 Mark Richards gibt in seinem [Vortrag "The Intersection of Architecture and Implementation"](/posts/ri24-the_intersection_of_arch_and_impl) eine [kurze Einführung in das Thema](https://youtube.com/watch?v=n6G5qtJHmgw&t=2420s).
 
@@ -45,3 +46,7 @@ Ein ADR ist typischerweise in folgende Abschnitte unterteilt:
 ADRs sollten in einem leicht zugänglichen Repository gespeichert werden, etwa in einem Git-Repo oder einer Wiki-Seite, damit alle Teammitglieder jederzeit darauf zugreifen können. [Richards empfiehlt in seinem Vortrag](/posts/ri24-the_intersection_of_arch_and_impl), ADRs zunächst temporär einzuführen, um ihre Wirksamkeit als Kommunikationsmittel zu testen.
 
 > **"Demonstration defeats discussion."**, [Mark Richards](https://youtube.com/watch?v=n6G5qtJHmgw&t=3320s)
+
+## Referenzen
+
+- [Linksammlung zu ADR bei Github](https://github.com/joelparkerhenderson/architecture-decision-record)
