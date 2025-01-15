@@ -1,0 +1,117 @@
+{
+  "title": "An Introduction to Residuality Theory",
+  "categories": [
+    "Software Architecture",
+    "Complexity Science",
+    "Residuality Theory",
+    "Systems Design"
+  ],
+  "image": "/assets/images/posts/Or24-NDC-IRT_overview.png",
+  "image_de": "Barry O'Reilly während seines Vortrags zur Residuality Theory. Im Hintergrund eine Präsentationsfolie mit Grafiken zur Komplexität.",
+  "image_en": "Barry O'Reilly during his talk on Residuality Theory.",
+  "visit": "https://youtu.be/_MPUoiG6w_U",
+  "speaker": "Barry O'Reilly",
+  "conference": "NDC London 2024, London",
+  "publicationdate": "2024-05-15",
+  "timeline": [
+    {
+      "time": "0:50",
+      "link": "https://youtu.be/_MPUoiG6w_U?t=50",
+      "description_de": "Warum ist Software Architektur so schwer zu lehren?",
+      "description_en": "Why is software architecture so difficult to teach?"
+    },
+    {
+      "time": "4:30",
+      "link": "https://youtu.be/_MPUoiG6w_U?t=270",
+      "description_de": "Ordnung und Unordnung",
+      "description_en": "Order and disorder"
+    },
+    {
+      "time": "9:30",
+      "link": "https://youtu.be/_MPUoiG6w_U?t=570",
+      "description_de": "Werkzeuge aus der Komplexitätstheorie",
+      "description_en": "Tools from complexity theory"
+    },
+    {
+      "time": "23:00",
+      "link": "https://youtu.be/_MPUoiG6w_U?t=1380",
+      "description_de": "Einführung in Residual Architecture",
+      "description_en": "Introduction to residual architecture"
+    },
+    {
+      "time": "28:30",
+      "link": "https://youtu.be/_MPUoiG6w_U?t=1710",
+      "description_de": "Resiliente Systeme bauen",
+      "description_en": "Building resilient systems"
+    },
+    {
+      "time": "31:10",
+      "link": "https://youtu.be/_MPUoiG6w_U?t=1870",
+      "description_de": "Beispiel: Car Charging Systems",
+      "description_en": "Example: Car charging systems"
+    },
+    {
+      "time": "38:00",
+      "link": "https://youtu.be/_MPUoiG6w_U?t=2280",
+      "description_de": "Analyse von Kopplung und Abhängigkeiten",
+      "description_en": "Analysis of coupling and dependencies"
+    },
+    {
+      "time": "41:00",
+      "link": "https://youtu.be/_MPUoiG6w_U?t=2460",
+      "description_de": "Incidence Matrix",
+      "description_en": "Incidence matrix"
+    },
+    {
+      "time": "45:00",
+      "link": "https://youtu.be/_MPUoiG6w_U?t=2700",
+      "description_de": "Empirische Analyse mit Residuality Theory",
+      "description_en": "Empirical analysis with residuality theory"
+    }
+],
+  "quotes": [
+    {
+        "text": "Time, change, and uncertainty are the three fundamental forces that will come along and destroy your architecture.",
+        "author": "Barry O'Reilly",
+        "time": "1:40",
+        "link": "https://youtu.be/_MPUoiG6w_U?t=100"
+    },
+    {
+        "text": "We’re putting an ordered system into a disordered system, and the first thing that happens is the disordered system tears our architecture apart.",
+        "author": "Barry O'Reilly",
+        "time": "6:35",
+        "link": "https://youtu.be/_MPUoiG6w_U?t=395"
+    },
+    {
+        "text": "The most powerful architects cannot predict the future. They say, they are just magic.",
+        "author": "Barry O'Reilly",
+        "time": "9:30",
+        "link": "https://youtu.be/_MPUoiG6w_U?t=570"
+    },
+    {
+        "text": "The residue is what’s left of your system after stress, and it becomes the building block for future design.",
+        "author": "Barry O'Reilly",
+        "time": "21:10",
+        "link": "https://youtu.be/_MPUoiG6w_U?t=1270"
+    },
+    {
+        "text": "The edge of chaos is the balance that allows your system to survive in an environment you neither control nor fully understand.",
+        "author": "Barry O'Reilly",
+        "time": "30:10",
+        "link": "https://youtu.be/_MPUoiG6w_U?t=1810"
+    },
+    {
+        "text": "We’re not in control of reality, but we can design architectures that survive reality.",
+        "author": "Barry O'Reilly",
+        "time": "38:00",
+        "link": "https://youtu.be/_MPUoiG6w_U?t=2280"
+    },
+    {
+        "text": "If you're trying to seek correctness in a complex system, you're going to be sad all the time.",
+        "author": "Barry O'Reilly",
+        "time": "51:20",
+        "link": "https://youtu.be/_MPUoiG6w_U?t=3080"
+    }
+],
+  "references": []
+}
