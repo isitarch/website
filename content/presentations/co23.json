@@ -1,0 +1,148 @@
+{
+  "title": "Residuality Theory and DDD",
+  "categories": [
+    "Software Architecture",
+    "Complexity Science",
+    "Residuality Theory",
+    "Domain-Driven Design"
+  ],
+  "image": "/assets/images/posts/CO23-DDD-RTD_overview.png",
+  "image_de": "Cyrille Martraire und Barry O'Reilly während ihres Vortrags zu Residuality Theory und DDD auf der DDD Europe 23.",
+  "image_en": "Cyrille Martraire and Barry O'Reilly during their talk on Residuality Theory and DDD at DDD Europe 23.",
+  "visit": "https://www.youtube.com/watch?v=JUF6eiS0cF0",
+  "speaker": "Cyrille Martraire, Barry O'Reilly",
+  "conference": "Domain-Driven Design Europe 2023, Amsterdam",
+  "publicationdate": "2023-10-23",
+  "timeline": [
+    {
+      "time": "1:01",
+      "link": "https://www.youtube.com/watch?v=JUF6eiS0cF0&t=61",
+      "description_de": "Vorstellung der Sprecher und der Ursprung der Kollaboration",
+      "description_en": "Introduction of the speakers and the origin of the collaboration"
+    },
+    {
+      "time": "4:00",
+      "link": "https://www.youtube.com/watch?v=JUF6eiS0cF0&t=240",
+      "description_de": "Warum eine neue Theorie notwendig ist: Paradigmenwechsel",
+      "description_en": "Why a new theory is needed: Paradigm shift"
+    },
+    {
+      "time": "14:00",
+      "link": "https://www.youtube.com/watch?v=JUF6eiS0cF0&t=840",
+      "description_de": "Welche Probleme Residuality Theory löst",
+      "description_en": "What problems Residuality Theory solves"
+    },
+    {
+      "time": "19:10",
+      "link": "https://www.youtube.com/watch?v=JUF6eiS0cF0&t=1150",
+      "description_de": "Einführung des Incidence Matrix Frameworks",
+      "description_en": "Introduction of the Incidence Matrix Framework"
+    },
+    {
+      "time": "35:00",
+      "link": "https://www.youtube.com/watch?v=JUF6eiS0cF0&t=2100",
+      "description_de": "Verbindung von Residuality Theory mit Domain-Driven Design (DDD)",
+      "description_en": "Connecting Residuality Theory with Domain-Driven Design (DDD)"
+    },
+    {
+      "time": "43:20",
+      "link": "https://www.youtube.com/watch?v=JUF6eiS0cF0&t=2600",
+      "description_de": "Stressoren identifizieren und Bounded Contexts hinterfragen",
+      "description_en": "Identifying stressors and questioning bounded contexts"
+    },
+    {
+      "time": "49:50",
+      "link": "https://www.youtube.com/watch?v=JUF6eiS0cF0&t=2990",
+      "description_de": "Fazit: Residuality Theory als Ergänzung zu bestehenden Ansätzen",
+      "description_en": "Conclusion: Residuality Theory as a complement to existing approaches"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The map is not the territory.",
+      "author": "Barry O'Reilly",
+      "time": "7:30",
+      "link": "https://www.youtube.com/watch?v=JUF6eiS0cF0&t=450"
+    },
+    {
+      "text": "Software architects focus on criticality, not correctness.",
+      "author": "Barry O'Reilly",
+      "time": "12:00",
+      "link": "https://www.youtube.com/watch?v=JUF6eiS0cF0&t=720"
+    },
+    {
+      "text": "Residuality Theory places uncertainty and indeterminism at the center of its world.",
+      "author": "Barry O'Reilly",
+      "time": "13:20",
+      "link": "https://www.youtube.com/watch?v=JUF6eiS0cF0&t=800"
+    },
+    {
+      "text": "Stop constraining your imagination by how likely things are. When you do this, you introduce bias.",
+      "author": "Barry O'Reilly",
+      "time": "23:00",
+      "link": "https://www.youtube.com/watch?v=JUF6eiS0cF0&t=1380"
+    },
+    {
+      "text": "Treat every system as a complex thing.",
+      "author": "Cyrille Martraire",
+      "time": "31:30",
+      "link": "https://www.youtube.com/watch?v=JUF6eiS0cF0&t=1890"
+    },
+    {
+      "text": "When you design bounded contexts, think beyond functional coupling.",
+      "author": "Barry O'Reilly",
+      "time": "42:00",
+      "link": "https://www.youtube.com/watch?v=JUF6eiS0cF0&t=2520"
+    },
+    {
+      "text": "Residuality Theory enriches practices, not replaces them.",
+      "author": "Cyrille Martraire",
+      "time": "50:00",
+      "link": "https://www.youtube.com/watch?v=JUF6eiS0cF0&t=3000"
+    }
+  ],
+  "references": [
+    {
+      "title": "Bridging Complexity and Post-Structuralism",
+      "author": "Minka Woermann",
+      "description": "A book about complexity and post-structuralist approaches.",
+      "link": "https://link.springer.com/book/10.1007/978-3-319-39047-5"
+    },
+    {
+      "title": "The Structure of Scientific Revolutions",
+      "author": "Thomas Kuhn",
+      "description": "A seminal work on paradigm shifts in science.",
+      "link": "https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions"
+    },
+    {
+      "title": "Domain-Driven Design: Tackling Complexity in the Heart of Software (Blue Book)",
+      "author": "Eric Evans",
+      "description": "The foundational work on Domain-Driven Design.",
+      "link": "https://www.domainlanguage.com/ddd/"
+    },
+    {
+      "title": "BDD, Feature Injection and Commitment",
+      "author": "Chris Matts",
+      "description": "An approach to creating flexible models and testing their limits.",
+      "link": "https://www.infoq.com/interviews/matts-commitment-bdd/"
+    },
+    {
+      "title": "Complexity and Postmodernism",
+      "author": "Paul Cilliers",
+      "description": "A book linking complexity sciences and poststructuralist philosophy.",
+      "link": "https://www.amazon.com/Complexity-Postmodernism-Paul-Cilliers/dp/0415152879"
+    },
+    {
+      "title": "Residuality and Representation: Toward a Coherent Philosophy of Software Architecture",
+      "author": "Barry M. O'Reilly",
+      "description": "An article describing residuality theory in an academic context.",
+      "link": "https://www.sciencedirect.com/science/article/pii/S1877050923010621"
+    },
+    {
+      "title": "Post-Structuralist on Wikipedia",
+      "author": "Various (Derrida, Deleuze)",
+      "description": "A general mention of post-structuralist philosophy and approaches.",
+      "link": "https://en.wikipedia.org/wiki/Post-structuralism"
+    }
+  ]
+}
